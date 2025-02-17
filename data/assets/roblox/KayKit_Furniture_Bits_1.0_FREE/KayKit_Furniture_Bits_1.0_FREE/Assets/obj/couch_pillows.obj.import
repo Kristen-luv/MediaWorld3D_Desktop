@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://csbwnxbkp2o2x"
+path="res://.godot/imported/couch_pillows.obj-9713ca55a1272b3201a59ff9c0cc838b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/couch_pillows.obj-9713ca55a1272b3201a59ff9c0cc838b.mesh"]
+
+source_file="res://data/assets/roblox/KayKit_Furniture_Bits_1.0_FREE/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/couch_pillows.obj"
+dest_files=["res://.godot/imported/couch_pillows.obj-9713ca55a1272b3201a59ff9c0cc838b.mesh", "res://.godot/imported/couch_pillows.obj-9713ca55a1272b3201a59ff9c0cc838b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

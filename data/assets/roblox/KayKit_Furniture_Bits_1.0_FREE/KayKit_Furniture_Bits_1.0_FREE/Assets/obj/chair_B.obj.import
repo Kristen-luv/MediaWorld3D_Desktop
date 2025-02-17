@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ncmtwxinrycx"
+path="res://.godot/imported/chair_B.obj-2ea16c8f2ada96829b91dbe38779a295.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chair_B.obj-2ea16c8f2ada96829b91dbe38779a295.mesh"]
+
+source_file="res://data/assets/roblox/KayKit_Furniture_Bits_1.0_FREE/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/chair_B.obj"
+dest_files=["res://.godot/imported/chair_B.obj-2ea16c8f2ada96829b91dbe38779a295.mesh", "res://.godot/imported/chair_B.obj-2ea16c8f2ada96829b91dbe38779a295.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

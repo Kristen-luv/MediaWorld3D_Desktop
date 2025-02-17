@@ -1,0 +1,36 @@
+[gd_scene load_steps=9 format=3 uid="uid://b1yd1fkb6qar1"]
+
+[ext_resource type="PackedScene" uid="uid://decbqfmk1y44l" path="res://data/assets/tower_kit/tower-round-base.glb" id="1_5jv6j"]
+[ext_resource type="Script" path="res://src/TBWObject.gd" id="1_6rswg"]
+[ext_resource type="PackedScene" uid="uid://n82np0wgpcml" path="res://data/assets/tower_kit/tower-round-bottom-a.glb" id="2_36sph"]
+[ext_resource type="PackedScene" uid="uid://bcxfa5c0ofqeq" path="res://data/assets/tower_kit/tower-round-build-a.glb" id="3_tx38n"]
+[ext_resource type="PackedScene" uid="uid://c0fje74d84x2f" path="res://data/assets/tower_kit/tower-round-middle-a.glb" id="4_ohkne"]
+[ext_resource type="PackedScene" uid="uid://8bon6l78txtp" path="res://data/assets/tower_kit/tower-round-roof-a.glb" id="5_7ui71"]
+[ext_resource type="PackedScene" uid="uid://p76jffgglv1" path="res://data/assets/tower_kit/tower-round-top-a.glb" id="6_v0pag"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xsatr"]
+size = Vector3(1, 4, 1)
+
+[node name="RoundTower" type="StaticBody3D"]
+script = ExtResource("1_6rswg")
+
+[node name="tower-round-base2" parent="." instance=ExtResource("1_5jv6j")]
+
+[node name="tower-round-bottom-a2" parent="." instance=ExtResource("2_36sph")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.225191, 0)
+
+[node name="tower-round-build-a2" parent="." instance=ExtResource("3_tx38n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.769051, 0)
+
+[node name="tower-round-middle-a2" parent="." instance=ExtResource("4_ohkne")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.68338, 0)
+
+[node name="tower-round-roof-a2" parent="." instance=ExtResource("5_7ui71")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.73091, 0)
+
+[node name="tower-round-top-a2" parent="." instance=ExtResource("6_v0pag")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.23284, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.92322, 0)
+shape = SubResource("BoxShape3D_xsatr")

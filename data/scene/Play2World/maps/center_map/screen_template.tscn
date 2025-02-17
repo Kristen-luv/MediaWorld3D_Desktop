@@ -1,0 +1,272 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyb151evaq3ad"]
+
+[ext_resource type="Script" path="res://src/CumulativeStatusBoard.gd" id="1_vrnav"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ce1fo"]
+albedo_color = Color(8.93427e-07, 0.00712844, 0.15521, 1)
+
+[node name="Screen_template" type="Node3D"]
+script = ExtResource("1_vrnav")
+
+[node name="screen1" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 22, 15)
+material_override = SubResource("StandardMaterial3D_ce1fo")
+size = Vector3(50, 35, 1)
+
+[node name="Title" type="Label3D" parent="screen1"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 16, 0.600001)
+modulate = Color(1, 0.65098, 0.301961, 1)
+text = "Cumulative Leaderboard"
+
+[node name="User_title" type="Label3D" parent="screen1"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 14, 0.600001)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "Name"
+
+[node name="Score_title" type="Label3D" parent="screen1"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 14, 0.600001)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total Score"
+
+[node name="Token_title" type="Label3D" parent="screen1"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 14, 0.600001)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total Token"
+
+[node name="Claimed_title" type="Label3D" parent="screen1"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 14, 0.600001)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed Token"
+
+[node name="api_json" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.5, 0)
+
+[node name="Avatar1" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 0, 15.6)
+
+[node name="User1" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 35, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score1" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 35, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens1" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 35, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens1" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 35, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar2" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 32, 15.6)
+
+[node name="User2" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 32, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score2" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 32, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens2" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 32, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens2" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 32, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar3" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 29, 15.6)
+
+[node name="User3" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 29, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score3" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 29, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens3" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 29, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens3" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 29, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar4" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 26, 15.6)
+
+[node name="User4" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 26, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score4" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 26, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens4" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 26, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens4" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 26, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar5" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 23, 15.6)
+
+[node name="User5" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 23, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score5" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 23, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens5" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 23, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens5" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 23, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar6" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 20, 15.6)
+
+[node name="User6" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 20, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score6" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 20, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens6" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 20, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens6" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 20, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar7" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 17, 15.6)
+
+[node name="User7" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 17, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score7" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 17, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens7" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 17, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens7" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 17, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar8" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 14, 15.6)
+
+[node name="User8" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 14, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score8" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 14, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens8" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 14, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens8" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 14, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar9" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 11, 15.6)
+
+[node name="User9" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 11, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score9" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 11, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens9" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 11, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens9" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 11, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"
+
+[node name="Avatar10" type="Sprite3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 0, 8, 15.6)
+
+[node name="User10" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -17, 8, 15.6)
+modulate = Color(0.725236, 0.504296, 1, 1)
+text = "User1"
+
+[node name="Total_score10" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -5, 8, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_score1"
+
+[node name="Total_tokens10" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 5, 8, 15.6)
+modulate = Color(0.788235, 1, 1, 1)
+text = "Total_tokens1"
+
+[node name="Claimed_tokens10" type="Label3D" parent="api_json"]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, 15, 8, 15.6)
+modulate = Color(1, 0.729412, 0.709804, 1)
+text = "Claimed_tokens1"

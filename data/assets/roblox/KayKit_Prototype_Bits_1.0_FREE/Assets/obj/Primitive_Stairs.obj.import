@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dowofij3alt4q"
+path="res://.godot/imported/Primitive_Stairs.obj-51d860433167f66d85b275c44872e2ab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Primitive_Stairs.obj-51d860433167f66d85b275c44872e2ab.mesh"]
+
+source_file="res://data/assets/roblox/KayKit_Prototype_Bits_1.0_FREE/Assets/obj/Primitive_Stairs.obj"
+dest_files=["res://.godot/imported/Primitive_Stairs.obj-51d860433167f66d85b275c44872e2ab.mesh", "res://.godot/imported/Primitive_Stairs.obj-51d860433167f66d85b275c44872e2ab.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

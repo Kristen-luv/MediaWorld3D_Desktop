@@ -775,6 +775,9 @@ var on_wall_cooldown : int = 0
 var standing_on_object_last_pos : Vector3 = Vector3.ZERO
 # Manages movement
 func _integrate_forces(state : PhysicsDirectBodyState3D) -> void:
+	if Global.is_typing:
+		return
+		
 	# handle movement
 	if is_multiplayer_authority():
 		# executes on owner only

@@ -1,0 +1,76 @@
+[gd_scene load_steps=12 format=3 uid="uid://dvv4pbnyftgl8"]
+
+[ext_resource type="PackedScene" uid="uid://b1lliatyo3jtu" path="res://data/scene/RobotWorld/maps/map1/map_1.tscn" id="8_csnha"]
+[ext_resource type="PackedScene" uid="uid://dbv7xvbqvmyx0" path="res://data/scene/RobotWorld/maps/center_map/map_0.tscn" id="8_fwb67"]
+[ext_resource type="PackedScene" uid="uid://mh7ovoqr22ms" path="res://data/scene/RobotWorld/maps/map2/map_2.tscn" id="10_6eyy1"]
+[ext_resource type="PackedScene" uid="uid://bcwh7ut700yg" path="res://data/scene/RobotWorld/maps/map3/map_3.tscn" id="11_kk0of"]
+[ext_resource type="PackedScene" uid="uid://bb785kyru02i" path="res://data/scene/RobotWorld/maps/map4/map_4.tscn" id="12_6u8j7"]
+[ext_resource type="PackedScene" uid="uid://bwcarqagxhrlj" path="res://data/scene/RobotWorld/maps/map5/map_5.tscn" id="13_tterk"]
+[ext_resource type="PackedScene" uid="uid://uan7xu6y7rg7" path="res://data/scene/RobotWorld/maps/center_map/Tiles_bridge.tscn" id="13_xh0pv"]
+[ext_resource type="PackedScene" uid="uid://d0kbidr4cxh2d" path="res://data/scene/RobotWorld/maps/map6/map_6.tscn" id="14_jjr7w"]
+[ext_resource type="PackedScene" uid="uid://bwulgp58jx23l" path="res://data/scene/RobotWorld/maps/map7/map_7.tscn" id="15_yrqby"]
+[ext_resource type="PackedScene" uid="uid://blijdiph056y1" path="res://data/scene/RobotWorld/maps/map8/map_8.tscn" id="16_rciwc"]
+[ext_resource type="PackedScene" uid="uid://bfqpdxa811h2a" path="res://data/scene/RobotWorld/maps/map9/map_9.tscn" id="17_lgn1f"]
+
+[node name="RobotWorld" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 50, 0)
+
+[node name="Map0" type="Node3D" parent="." instance=ExtResource("8_fwb67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -20.2182, 0)
+
+[node name="Map1" parent="." instance=ExtResource("8_csnha")]
+transform = Transform3D(-0.739091, 0, -0.673606, 0, 1, 0, 0.673606, 0, -0.739091, -1002.91, -12.999, -762.163)
+
+[node name="Map2" parent="." instance=ExtResource("10_6eyy1")]
+transform = Transform3D(0.952449, 0, 0.304698, 0, 1, 0, -0.304698, 0, 0.952449, -1331.89, -523.766, -274.996)
+
+[node name="Map3" parent="." instance=ExtResource("11_kk0of")]
+transform = Transform3D(0.681935, 0, 0.731413, 0, 1, 0, -0.731413, 0, 0.681935, -938.488, -418.915, -1086.18)
+
+[node name="Map4" parent="." instance=ExtResource("12_6u8j7")]
+transform = Transform3D(0.813111, 0, -0.582109, 0, 1, 0, 0.582109, 0, 0.813111, -467.871, -519.047, -1637.05)
+
+[node name="Map5" parent="." instance=ExtResource("13_tterk")]
+transform = Transform3D(0.998699, 0, 0.0509936, 0, 1, 0, -0.0509936, 0, 0.998699, 231.351, -174.275, -1572.3)
+
+[node name="Map6" parent="." instance=ExtResource("14_jjr7w")]
+transform = Transform3D(-0.211837, 0, -0.977305, 0, 1, 0, 0.977305, 0, -0.211837, 846.407, -467.877, -1461.74)
+
+[node name="Map7" parent="." instance=ExtResource("15_yrqby")]
+transform = Transform3D(-0.145703, 0, -0.989329, 0, 1, 0, 0.989329, 0, -0.145703, 1098.47, -518.086, -764.529)
+
+[node name="Map8" parent="." instance=ExtResource("16_rciwc")]
+transform = Transform3D(-0.467452, 0, -0.884019, 0, 1, 0, 0.884019, 0, -0.467452, 1044.7, -416.505, -97.5971)
+
+[node name="Map9" parent="." instance=ExtResource("17_lgn1f")]
+transform = Transform3D(-0.942991, 0, -0.33282, 0, 1, 0, 0.33282, 0, -0.942991, 531.616, -474.28, 305.833)
+
+[node name="Bridges" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.78178, 0)
+
+[node name="village_tiles" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(0.127757, 0, 0.991805, 0, 1, 0, -0.991805, 0, 0.127757, -411.44, -54.9061, -246.517)
+
+[node name="village_tiles2" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(0.903672, 0, 0.428225, 0, 1, 0, -0.428225, 0, 0.903672, -576.138, -54.7364, -608.878)
+
+[node name="village_tiles3" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(0.982538, 0, -0.186061, 0, 1, 0, 0.186061, 0, 0.982538, -468.181, -52.6227, -965.412)
+
+[node name="village_tiles4" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(-0.495549, 0, 0.86858, 0, 1, 0, -0.86858, 0, -0.495549, -162.24, -52.6227, -1185.63)
+
+[node name="village_tiles5" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(0.507794, 0, -0.861479, 0, 1, 0, 0.861479, 0, 0.507794, 362.351, -52.6227, -121.665)
+
+[node name="village_tiles9" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(0.0934479, 0, 0.995624, 0, 1, 0, -0.995624, 0, 0.0934479, 172.623, -52.6227, -1198.49)
+
+[node name="village_tiles11" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(0.576304, 0, 0.817236, 0, 1, 0, -0.817236, 0, 0.576304, 471.264, -52.6227, -1027.52)
+
+[node name="village_tiles13" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(0.969927, 0, 0.243395, 0, 1, 0, -0.243395, 0, 0.969927, 647.742, -52.6227, -697.75)
+
+[node name="village_tiles14" parent="Bridges" instance=ExtResource("13_xh0pv")]
+transform = Transform3D(0.88437, 0, -0.466788, 0, 1, 0, 0.466788, 0, 0.88437, 570.819, -52.6227, -344.9)

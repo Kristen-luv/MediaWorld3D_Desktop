@@ -1,37 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://d77wtx4ofpyc"]
+[gd_scene load_steps=2 format=3 uid="uid://d77wtx4ofpyc"]
 
-[ext_resource type="PackedScene" uid="uid://bwd8qxi0xi1el" path="res://data/scene/Play2World/maps/center_map/Tiles_village.tscn" id="1_us428"]
-[ext_resource type="PackedScene" uid="uid://b52jus0cwn14j" path="res://data/scene/Play2World/signboard/BoardPlay2Work.tscn" id="2_v0tsx"]
-[ext_resource type="PackedScene" uid="uid://b2oywjvergj3j" path="res://data/scene/Play2World/signboard/BoardPlay2Help.tscn" id="3_4rh0s"]
-[ext_resource type="PackedScene" uid="uid://b0xgtgav46tgp" path="res://data/scene/Play2World/signboard/BoardPlay2Health.tscn" id="4_j0j31"]
-[ext_resource type="PackedScene" uid="uid://e0155jt1b1k6" path="res://data/scene/Play2World/signboard/BoardPlay2Learn.tscn" id="5_apgln"]
-[ext_resource type="PackedScene" uid="uid://ctkx8l1qsdqar" path="res://data/scene/Play2World/signboard/BoardPlay2Love.tscn" id="6_3xf8v"]
-[ext_resource type="PackedScene" uid="uid://c1as0xt2ghey7" path="res://data/scene/Play2World/signboard/BoardPlay2LiveWell.tscn" id="7_uamj6"]
+[ext_resource type="PackedScene" uid="uid://bwd8qxi0xi1el" path="res://data/scene/RobotWorld/maps/center_map/Tiles_village.tscn" id="1_us428"]
 
 [node name="CircularVillage" type="Node3D"]
 transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 0, -0.4, 0)
 
 [node name="village_tiles" parent="." instance=ExtResource("1_us428")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -104, 0)
-
-[node name="Signboards" type="Node3D" parent="."]
-transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 1.41421, 95, 7.07107)
-
-[node name="BoardPLay2Work" parent="Signboards" instance=ExtResource("2_v0tsx")]
-transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, 42.9637, 0, -187.074)
-
-[node name="BoardPlay2Help" parent="Signboards" instance=ExtResource("3_4rh0s")]
-transform = Transform3D(-0.707106, 0, 0.707106, 0, 1, 0, -0.707106, 0, -0.707106, -147.193, 0, 147.037)
-
-[node name="BoardPlay2Health" parent="Signboards" instance=ExtResource("4_j0j31")]
-transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -131.194, 0, -136.143)
-
-[node name="BoardPlay2Learn" parent="Signboards" instance=ExtResource("5_apgln")]
-transform = Transform3D(0.258818, 0, -0.965925, 0, 1, 0, 0.965925, 0, 0.258818, 170.315, 0, -79.6023)
-
-[node name="BoardPlay2Love" parent="Signboards" instance=ExtResource("6_3xf8v")]
-transform = Transform3D(-0.258818, 0, 0.965926, 0, 1, 0, -0.965926, 0, -0.258818, -184.53, 0, 12.5763)
-visible = false
-
-[node name="BoardPLay2LiveWell" parent="Signboards" instance=ExtResource("7_uamj6")]
-transform = Transform3D(-0.707106, 0, -0.707106, 0, 1, 0, 0.707106, 0, -0.707106, 167.769, 0, 88.7941)

@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=4 uid="uid://35d1c4e36hab"]
+
+[ext_resource type="Script" path="res://src/TBWObject.gd" id="1_hexs0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pf348"]
+resource_name = "colormap"
+cull_mode = 2
+albedo_color = Color(1.82897e-06, 0.728038, 0.519684, 1)
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rrsqh"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 0.2, 1),
+"format": 34896613377,
+"index_count": 72,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIAAAACAAEAAwABAAIABQAEAAEAAQAAAAUABAAFAAEAAAABAAUABQAAAAIAAgAGAAUAAAAFAAIABgACAAUAAgADAAcABwAGAAIAAwACAAcABgAHAAIABwADAAEAAQAEAAcAAwAHAAEABAABAAcABwAEAAUABQAGAAcABAAHAAUABgAFAAcA"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("//8AAP//AAD//wAAAAAAAAAAAAD//wAAAAAAAAAAAAD/////AAAAAP///////wAAAAD/////AAAAAP//AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_j8kv0"]
+resource_name = "tile_tile"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 0.2, 1),
+"attribute_data": PackedByteArray("/5eYuf+XmLn/l5i5/5eYuf+XmLn/l5i5/5eYuf+XmLn/l2WG/5eYuf+XZYb/l5i5/5dlhv+XmLn/l2WG/5eYuf+XmLn/l5i5/5dlhv+XZYb/l2WG/5eYuf+XmLn/l2WG/5eYuf+XZYb/l5i5/5dlhv+XmLn/l2WG/5eYuf+XZYb/l5i5/5eYuf+XZYb/l2WG/5dlhv+XmLn/l5i5/5dlhv+XZYb/l2WG/5dlhv+XZYb/l2WG/5dlhv+XZYb/l2WG"),
+"format": 34896613399,
+"index_count": 72,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIABgAEAAUABwAFAAQACgAIAAkACQALAAoADgAMAA0ADwANAAwAEgAQABEAEQATABIAFgAUABUAFwAVABQAGgAYABkAGQAbABoAHgAcAB0AHwAdABwAIgAgACEAIQAjACIAJgAkACUAJwAlACQAKgAoACkAKQArACoALgAsAC0ALwAtACwA"),
+"material": SubResource("StandardMaterial3D_pf348"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("//8AAP///7///wAAAAD/vwAAAAD///+/AAAAAAAA/78AAAAA////P///AAAAAP8///8AAP///z8AAAAAAAD/P/////8AAP+///8AAAAA/7//////////v///AAD///+/////////AAD//wAAAAAAAP////8AAAAA//8AAP//AAD//wAA//8AgAAAAAD//wCA////////AIAAAP////8AgP///////wAAAAAAAP//AAD//wAA//8AAAAA/////wAAAAAAAAAA/78AAP//AAD/vwAAAAD///+/AAD//////78AAAAA//8AAAAA//8AAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAP////8AAAAA//8AAP//AAD///////8AAP//AAD//wAAAAD//wAAAAAAAAAAAAAAAAAA/////wAAAAD/////AAD/////////////AAD//wAA//8AAP///////wAA//8AAAAA////////AAD/////AAAAAAAA/////wAAAAD/fwAA/38AAP9/AAD/f////3////9/////f////3//fwAA/38AAP9/AAD/fwAA/z//f/8//3//P/9//z//f/9/////f////3////9///////9/////f////3////9//3////9/////f////3////+//3//v/9//7//f/+//3//f////3////9/////f////3//f/9//3//f/9//3//f/9//7//f/+//3//v/9//7//f/8//3//P/9//z//f/8/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_rrsqh")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ubvpx"]
+size = Vector3(1000, 4, 1000)
+
+[node name="Tiles" type="StaticBody3D"]
+script = ExtResource("1_hexs0")
+tbw_object_type = "obj_picnic_table"
+
+[node name="tile" type="MeshInstance3D" parent="."]
+transform = Transform3D(1000, 0, 0, 0, 20, 0, 0, 0, 1000, 0, 1, 0)
+mesh = SubResource("ArrayMesh_j8kv0")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+shape = SubResource("BoxShape3D_ubvpx")

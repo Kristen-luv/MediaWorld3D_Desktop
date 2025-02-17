@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ta151o6160qc"
+path="res://.godot/imported/Cube_Prototype_Large_B.obj-4307cf9c73acf10752f84223cc0698ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cube_Prototype_Large_B.obj-4307cf9c73acf10752f84223cc0698ba.mesh"]
+
+source_file="res://data/assets/roblox/KayKit_Prototype_Bits_1.0_FREE/Assets/obj/Cube_Prototype_Large_B.obj"
+dest_files=["res://.godot/imported/Cube_Prototype_Large_B.obj-4307cf9c73acf10752f84223cc0698ba.mesh", "res://.godot/imported/Cube_Prototype_Large_B.obj-4307cf9c73acf10752f84223cc0698ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

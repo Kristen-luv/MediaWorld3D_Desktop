@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bwulgp58jx23l"]
 
-[ext_resource type="PackedScene" uid="uid://big5ascj0l2yi" path="res://data/scene/Play2World/maps/map7/Tiles_map7.tscn" id="1_8dem2"]
-[ext_resource type="PackedScene" uid="uid://cxi078t8s3ptc" path="res://data/scene/Play2World/maps/map7/Tiles_lobby_map7.tscn" id="2_ljicj"]
+[ext_resource type="PackedScene" uid="uid://big5ascj0l2yi" path="res://data/scene/RobotWorld/maps/map7/Tiles_map7.tscn" id="1_8dem2"]
+[ext_resource type="PackedScene" uid="uid://cxi078t8s3ptc" path="res://data/scene/RobotWorld/maps/map7/Tiles_lobby_map7.tscn" id="2_ljicj"]
 
 [node name="Map7" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
@@ -12,6 +12,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
 
 [node name="Tiles_map3" parent="Ground" instance=ExtResource("2_ljicj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 87, 265)
+visible = false
 
 [node name="Trees" type="Node3D" parent="."]
 

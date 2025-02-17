@@ -158,7 +158,7 @@ func _ready() -> void:
 	# if on macOS, go into fullscreen, not exclusive fullscreen (allows access to dock/status bar when hovering top/bottom)
 	elif !OS.has_feature("editor") && OS.get_name() == "macOS" && !Global.server_mode():
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
-
+	
 func save_appearance() -> void:
 	UserPreferences.save_pref("shirt", shirt)
 	UserPreferences.save_pref("shirt_texture", shirt_texture)
@@ -404,3 +404,5 @@ func format_server_version(what : String) -> String:
 		suffix = "pre"
 	return str("beta ", first, ".", str(int(second)), suffix)
 	
+
+var is_typing : bool = false

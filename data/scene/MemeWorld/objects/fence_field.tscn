@@ -1,0 +1,25 @@
+[gd_scene load_steps=8 format=3 uid="uid://byfb6x6h6sbs1"]
+
+[ext_resource type="PackedScene" uid="uid://hauka4j8xuf8" path="res://data/assets/halloween_kit/gltf/fence.gltf" id="1_lvn7o"]
+[ext_resource type="PackedScene" uid="uid://cdqshsx652mib" path="res://data/assets/halloween_kit/gltf/fence_broken.gltf" id="2_w43hh"]
+[ext_resource type="PackedScene" uid="uid://dq5ob57f3mx55" path="res://data/assets/halloween_kit/gltf/fence_gate.gltf" id="3_jg5jx"]
+[ext_resource type="PackedScene" uid="uid://bpkik1i374wix" path="res://data/assets/halloween_kit/gltf/fence_pillar.gltf" id="4_kq57b"]
+[ext_resource type="PackedScene" uid="uid://k2smmqfet7o7" path="res://data/assets/halloween_kit/gltf/fence_pillar_broken.gltf" id="5_o8s5c"]
+[ext_resource type="PackedScene" uid="uid://uflht18a2l7q" path="res://data/assets/halloween_kit/gltf/fence_seperate.gltf" id="6_ysv8q"]
+[ext_resource type="PackedScene" uid="uid://bqaswv0gmnr2y" path="res://data/assets/halloween_kit/gltf/fence_seperate_broken.gltf" id="7_qonlq"]
+
+[node name="fence_field" type="Node3D"]
+
+[node name="fence2" parent="." instance=ExtResource("1_lvn7o")]
+
+[node name="fence_broken2" parent="." instance=ExtResource("2_w43hh")]
+
+[node name="fence_gate2" parent="." instance=ExtResource("3_jg5jx")]
+
+[node name="fence_pillar2" parent="." instance=ExtResource("4_kq57b")]
+
+[node name="fence_pillar_broken2" parent="." instance=ExtResource("5_o8s5c")]
+
+[node name="fence_seperate2" parent="." instance=ExtResource("6_ysv8q")]
+
+[node name="fence_seperate_broken2" parent="." instance=ExtResource("7_qonlq")]

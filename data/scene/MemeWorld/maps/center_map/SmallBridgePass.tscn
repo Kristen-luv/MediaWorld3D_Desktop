@@ -1,0 +1,104 @@
+[gd_scene load_steps=6 format=3 uid="uid://dsnmabjl1xc17"]
+
+[ext_resource type="Script" path="res://src/TBWObject.gd" id="1_vnrr0"]
+[ext_resource type="ArrayMesh" uid="uid://drvfmhifsnqab" path="res://data/assets/terrain_kit/Cliff_Prop_Bridge_Rope_End.obj" id="2_2mu35"]
+[ext_resource type="ArrayMesh" uid="uid://6y44mhhrthqx" path="res://data/assets/terrain_kit/Cliff_Prop_Bridge_Rope_Middle.obj" id="3_rmsh2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_og3v8"]
+size = Vector3(7, 1, 80)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_md778"]
+size = Vector3(7, 1, 10)
+
+[node name="Bridge" type="StaticBody3D"]
+script = ExtResource("1_vnrr0")
+tbw_object_type = "obj_picnic_table"
+
+[node name="3DBody" type="Node3D" parent="."]
+
+[node name="Bridge_Start" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.299316, 0, 12.8645)
+mesh = ExtResource("2_2mu35")
+skeleton = NodePath("../..")
+
+[node name="Middle1" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -2.17363)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle2" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -7.17363)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle3" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -12.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle4" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -17.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle5" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -22.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle6" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -27.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle7" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -32.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle8" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -37.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle9" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -42.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle10" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -47.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle11" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -52.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle12" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -57.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Middle13" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0.312958, 0, -62.1736)
+mesh = ExtResource("3_rmsh2")
+skeleton = NodePath("../..")
+
+[node name="Bridge_End" type="MeshInstance3D" parent="3DBody"]
+transform = Transform3D(-4.99995, 0, 0.0220782, 0, 5, 0, -0.0220782, 0, -4.99995, -4.713, 0, -77)
+mesh = ExtResource("2_2mu35")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2.5, -34)
+shape = SubResource("BoxShape3D_og3v8")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, -2, 3.43159, 9.46979)
+shape = SubResource("BoxShape3D_md778")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.965926, -0.258819, 0, 0.258819, 0.965926, -2, 3.432, -73.53)
+shape = SubResource("BoxShape3D_md778")

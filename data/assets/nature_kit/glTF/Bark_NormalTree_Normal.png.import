@@ -2,7 +2,7 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b17pinioxhrmi"
+uid="uid://bcscpvfa5653w"
 path.s3tc="res://.godot/imported/Bark_NormalTree_Normal.png-abcdcc5f4030e8a42437e989cf74b081.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
@@ -24,8 +24,8 @@ compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=1
-roughness/src_normal="res://data/assets/nature_kit/glTF/Bark_NormalTree_Normal.png"
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

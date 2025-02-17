@@ -1,0 +1,33 @@
+[gd_scene load_steps=8 format=3 uid="uid://3eiaxvss8q4h"]
+
+[ext_resource type="Script" path="res://src/TBWObject.gd" id="1_an7sx"]
+[ext_resource type="PackedScene" uid="uid://bydm6mh6t0yao" path="res://data/assets/tower_kit/tower-square-bottom-a.glb" id="1_cb27o"]
+[ext_resource type="PackedScene" uid="uid://dno6q2hk6jjm6" path="res://data/assets/tower_kit/tower-square-build-a.glb" id="2_ud7h6"]
+[ext_resource type="PackedScene" uid="uid://y3i3ctcj53os" path="res://data/assets/tower_kit/tower-square-middle-a.glb" id="3_gbuin"]
+[ext_resource type="PackedScene" uid="uid://cl44eanrf74bo" path="res://data/assets/tower_kit/tower-square-roof-a.glb" id="4_m4me5"]
+[ext_resource type="PackedScene" uid="uid://byei8vtnf18vm" path="res://data/assets/tower_kit/tower-square-top-a.glb" id="5_8grig"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g7nqa"]
+size = Vector3(1, 4, 1)
+
+[node name="SquareTower" type="StaticBody3D"]
+script = ExtResource("1_an7sx")
+
+[node name="tower-square-bottom-a2" parent="." instance=ExtResource("1_cb27o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0287611, 0.0596046, 0)
+
+[node name="tower-square-build-a2" parent="." instance=ExtResource("2_ud7h6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0287611, 0.570554, 0)
+
+[node name="tower-square-middle-a2" parent="." instance=ExtResource("3_gbuin")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0287611, 1.50247, 0)
+
+[node name="tower-square-roof-a2" parent="." instance=ExtResource("4_m4me5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0287611, 2.51189, 0)
+
+[node name="tower-square-top-a2" parent="." instance=ExtResource("5_8grig")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0287611, 1.98886, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.92322, 0)
+shape = SubResource("BoxShape3D_g7nqa")

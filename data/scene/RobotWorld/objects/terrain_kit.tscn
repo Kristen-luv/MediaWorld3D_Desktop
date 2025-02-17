@@ -1,0 +1,1529 @@
+[gd_scene load_steps=306 format=3 uid="uid://bv5lln4lo0bux"]
+
+[ext_resource type="ArrayMesh" uid="uid://do8gbrq370cte" path="res://data/assets/terrain_kit/Beach_Prop_Coconut_1.obj" id="1_whgs2"]
+[ext_resource type="ArrayMesh" uid="uid://t7qitiqvlpl0" path="res://data/assets/terrain_kit/Beach_Prop_Docks_Corner.obj" id="2_00ast"]
+[ext_resource type="ArrayMesh" uid="uid://bgejuo6m65osp" path="res://data/assets/terrain_kit/Beach_Prop_Docks_Corner_Supports.obj" id="3_8hqj4"]
+[ext_resource type="ArrayMesh" uid="uid://oyqhonf44f3k" path="res://data/assets/terrain_kit/Beach_Prop_Docks_Steps.obj" id="4_0y58d"]
+[ext_resource type="ArrayMesh" uid="uid://d30jrqj81kted" path="res://data/assets/terrain_kit/Beach_Prop_Docks_Straight.obj" id="5_bhm50"]
+[ext_resource type="ArrayMesh" uid="uid://cwwipkblqqn6" path="res://data/assets/terrain_kit/Beach_Prop_Docks_Straight_Supports.obj" id="6_0p3t7"]
+[ext_resource type="ArrayMesh" uid="uid://dlysv40yysrhd" path="res://data/assets/terrain_kit/Beach_Prop_Shell_1.obj" id="7_bxim3"]
+[ext_resource type="ArrayMesh" uid="uid://c8ywg42hgnwbv" path="res://data/assets/terrain_kit/Beach_Prop_Shell_2.obj" id="8_pnvpi"]
+[ext_resource type="ArrayMesh" uid="uid://dt3a3t7w4mjsk" path="res://data/assets/terrain_kit/Beach_Prop_Starfish_1.obj" id="9_qtr0y"]
+[ext_resource type="ArrayMesh" uid="uid://e74x3von4h7r" path="res://data/assets/terrain_kit/Beach_Prop_Starfish_2.obj" id="10_v0b3k"]
+[ext_resource type="ArrayMesh" uid="uid://dg4qghga3dbii" path="res://data/assets/terrain_kit/Beach_Prop_Treasure_Chest.obj" id="11_4loum"]
+[ext_resource type="ArrayMesh" uid="uid://dfmuky1e61myg" path="res://data/assets/terrain_kit/Beach_Prop_Tree_Palm_1.obj" id="12_60v62"]
+[ext_resource type="ArrayMesh" uid="uid://bpr70g03q5yd6" path="res://data/assets/terrain_kit/Beach_Prop_Tree_Palm_2.obj" id="13_2h85k"]
+[ext_resource type="ArrayMesh" uid="uid://cdj6kkn3dfvss" path="res://data/assets/terrain_kit/Beach_Prop_Tree_Palm_3.obj" id="14_pox0j"]
+[ext_resource type="ArrayMesh" uid="uid://dwmlc2y4ukfmp" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Corner_Inner_2x2.obj" id="15_rx8mu"]
+[ext_resource type="ArrayMesh" uid="uid://b7rvi3dww5de1" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Corner_Inner_4x4.obj" id="16_k0hpk"]
+[ext_resource type="ArrayMesh" uid="uid://cdflq2j8n0rmh" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Corner_Outer_2x2.obj" id="17_bf3o6"]
+[ext_resource type="ArrayMesh" uid="uid://choea52pg3ujh" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Corner_Outer_4x4.obj" id="18_umh1b"]
+[ext_resource type="ArrayMesh" uid="uid://dinpdjs2ujdeh" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Floor.obj" id="19_3rsl0"]
+[ext_resource type="ArrayMesh" uid="uid://lfmlgeb0outx" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Floor_Raised.obj" id="20_xrp1e"]
+[ext_resource type="ArrayMesh" uid="uid://dryjhmrj07c37" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Side_Gentle.obj" id="21_05ga6"]
+[ext_resource type="ArrayMesh" uid="uid://m7vb43nfpty7" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Side_Overlap_Side.obj" id="22_mwrvl"]
+[ext_resource type="ArrayMesh" uid="uid://dbqk1xmupkybo" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Side_Sharp.obj" id="23_klh40"]
+[ext_resource type="ArrayMesh" uid="uid://fkc56g8tgg7l" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Side_Shift_Gentle.obj" id="24_cxrvk"]
+[ext_resource type="ArrayMesh" uid="uid://c4chc15svai4h" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Side_Shift_Sharp.obj" id="25_0pwrm"]
+[ext_resource type="ArrayMesh" uid="uid://de82pgplij85i" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Transition_Gentle_Sharp_Centered.obj" id="26_doipc"]
+[ext_resource type="ArrayMesh" uid="uid://5lsygk0nxss5" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Transition_Gentle_Sharp_Flush_Base.obj" id="27_jp25c"]
+[ext_resource type="ArrayMesh" uid="uid://dywl28yj1ajm2" path="res://data/assets/terrain_kit/Beach_Terrain_Sand_Transition_Gentle_Sharp_Flush_Crest.obj" id="28_lehdj"]
+[ext_resource type="ArrayMesh" uid="uid://clwp7h880rrbp" path="res://data/assets/terrain_kit/Cave_Cliff_Terrain_Entrance_Flat_Base.obj" id="29_7mkii"]
+[ext_resource type="ArrayMesh" uid="uid://c0lt8jf22rawb" path="res://data/assets/terrain_kit/Cave_Cliff_Terrain_Entrance_Round_Base.obj" id="30_x0f3k"]
+[ext_resource type="ArrayMesh" uid="uid://bgta1a38e6hik" path="res://data/assets/terrain_kit/Cave_Cliff_Terrain_Entrance_Round_Top.obj" id="31_o0w22"]
+[ext_resource type="ArrayMesh" uid="uid://dqpymrvkop2v3" path="res://data/assets/terrain_kit/Cave_Cliff_Terrain_Entrance_Round_Top_Center.obj" id="32_aai87"]
+[ext_resource type="ArrayMesh" uid="uid://bs6jmd7643g04" path="res://data/assets/terrain_kit/Cave_Prop_Entrance_1.obj" id="33_3wyqy"]
+[ext_resource type="ArrayMesh" uid="uid://cyano0jgr5klg" path="res://data/assets/terrain_kit/Cave_Prop_Hanging_Cables_1.obj" id="34_yx3x8"]
+[ext_resource type="ArrayMesh" uid="uid://b2661mkp0w8m0" path="res://data/assets/terrain_kit/Cave_Prop_Hanging_Cables_2.obj" id="35_ghjku"]
+[ext_resource type="ArrayMesh" uid="uid://dmsc24uukww5a" path="res://data/assets/terrain_kit/Cave_Prop_Hanging_Cables_3.obj" id="36_h61eg"]
+[ext_resource type="ArrayMesh" uid="uid://d38pvqaukxkqb" path="res://data/assets/terrain_kit/Cave_Prop_Hanging_Lamp_1.obj" id="37_06t7j"]
+[ext_resource type="ArrayMesh" uid="uid://bu361yquk1otk" path="res://data/assets/terrain_kit/Cave_Prop_Minecart_1.obj" id="38_6asfh"]
+[ext_resource type="ArrayMesh" uid="uid://clyh77uahb1vc" path="res://data/assets/terrain_kit/Cave_Prop_Pick_Large.obj" id="39_ew6v0"]
+[ext_resource type="ArrayMesh" uid="uid://b0iqfbpyvtdne" path="res://data/assets/terrain_kit/Cave_Prop_Pick_Small.obj" id="40_p13o1"]
+[ext_resource type="ArrayMesh" uid="uid://dkbdqea07243f" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Bumpstop.obj" id="41_kgxxp"]
+[ext_resource type="ArrayMesh" uid="uid://b1m7e6qmm62dy" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Curve_Large.obj" id="42_5tsxw"]
+[ext_resource type="ArrayMesh" uid="uid://cafdcwjvsi86x" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Curve_Small.obj" id="43_d27cf"]
+[ext_resource type="ArrayMesh" uid="uid://buyogie7sfyly" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Hill_Gentle.obj" id="44_pgt7x"]
+[ext_resource type="ArrayMesh" uid="uid://r1wmjuq8gciy" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Hill_Sharp.obj" id="45_kia8d"]
+[ext_resource type="ArrayMesh" uid="uid://0bwdk1yeamhf" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Intersection.obj" id="46_o8m6t"]
+[ext_resource type="ArrayMesh" uid="uid://l8woakwfe5bh" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Straight_1.obj" id="47_u115t"]
+[ext_resource type="ArrayMesh" uid="uid://ldpowsj325eo" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Straight_2.obj" id="48_vfasb"]
+[ext_resource type="ArrayMesh" uid="uid://okdorlf62qqd" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Straight_3.obj" id="49_q166e"]
+[ext_resource type="ArrayMesh" uid="uid://bais740dywy4s" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Straight_4.obj" id="50_x2ncu"]
+[ext_resource type="ArrayMesh" uid="uid://4kdc20jj6w8w" path="res://data/assets/terrain_kit/Cave_Prop_Railway_Switch.obj" id="51_jr8y5"]
+[ext_resource type="ArrayMesh" uid="uid://qd4q1gw6ppoy" path="res://data/assets/terrain_kit/Cave_Prop_Stalagmite_Connected_Base.obj" id="52_ogwcq"]
+[ext_resource type="ArrayMesh" uid="uid://nckwof44ll7n" path="res://data/assets/terrain_kit/Cave_Prop_Stalagmite_Connected_Mid.obj" id="53_qn2lb"]
+[ext_resource type="ArrayMesh" uid="uid://v7r0g6thafqx" path="res://data/assets/terrain_kit/Cave_Prop_Stalagmite_Connected_Top.obj" id="54_2siiq"]
+[ext_resource type="ArrayMesh" uid="uid://csw1o44owr20p" path="res://data/assets/terrain_kit/Cave_Prop_Stalagmite_Normal.obj" id="55_7554p"]
+[ext_resource type="ArrayMesh" uid="uid://xjnt42sklgnq" path="res://data/assets/terrain_kit/Cave_Prop_Stalagmite_Tiny.obj" id="56_tgths"]
+[ext_resource type="ArrayMesh" uid="uid://cbmvv4lcn8ev5" path="res://data/assets/terrain_kit/Cave_Prop_Support_Ceiling_Beam_1.obj" id="57_iedhv"]
+[ext_resource type="ArrayMesh" uid="uid://bs4smk0jo6hsw" path="res://data/assets/terrain_kit/Cave_Prop_Support_Ceiling_Beam_2.obj" id="58_1bdwb"]
+[ext_resource type="ArrayMesh" uid="uid://b61soerxm1m5x" path="res://data/assets/terrain_kit/Cave_Prop_Support_Ceiling_Beam_3.obj" id="59_ug07u"]
+[ext_resource type="ArrayMesh" uid="uid://c2angd252k6qt" path="res://data/assets/terrain_kit/Cave_Prop_Support_Ceiling_Beam_4.obj" id="60_l824d"]
+[ext_resource type="ArrayMesh" uid="uid://dgxhws3h053qd" path="res://data/assets/terrain_kit/Cave_Prop_Support_Ceiling_Boards_1.obj" id="61_jbrx1"]
+[ext_resource type="ArrayMesh" uid="uid://cr2wdfqr7w8xb" path="res://data/assets/terrain_kit/Cave_Prop_Support_Ceiling_Boards_2.obj" id="62_hiuyc"]
+[ext_resource type="ArrayMesh" uid="uid://c4x0rk01wh1ym" path="res://data/assets/terrain_kit/Cave_Prop_Support_Ceiling_Boards_3.obj" id="63_4p2ox"]
+[ext_resource type="ArrayMesh" uid="uid://btxleprti0jpt" path="res://data/assets/terrain_kit/Cave_Prop_Support_Ceiling_Boards_4.obj" id="64_7ub3i"]
+[ext_resource type="ArrayMesh" uid="uid://b0ba63sapqs0o" path="res://data/assets/terrain_kit/Cave_Prop_Support_Corner_Brace_1.obj" id="65_mxqir"]
+[ext_resource type="ArrayMesh" uid="uid://2qdy8nwlull8" path="res://data/assets/terrain_kit/Cave_Prop_Support_Corner_Brace_2.obj" id="66_p0oml"]
+[ext_resource type="ArrayMesh" uid="uid://yommklo2ceeg" path="res://data/assets/terrain_kit/Cave_Prop_Support_Wall_Boards_1.obj" id="67_m0aig"]
+[ext_resource type="ArrayMesh" uid="uid://csjt5nqt1jumn" path="res://data/assets/terrain_kit/Cave_Prop_Support_Wall_Boards_2.obj" id="68_ukq61"]
+[ext_resource type="ArrayMesh" uid="uid://c4bx3i7nyi5ef" path="res://data/assets/terrain_kit/Cave_Prop_Support_Wall_Boards_3.obj" id="69_ykl6r"]
+[ext_resource type="ArrayMesh" uid="uid://cuq7bsmdt15qu" path="res://data/assets/terrain_kit/Cave_Prop_Support_Wall_Boards_4.obj" id="70_ch7kr"]
+[ext_resource type="ArrayMesh" uid="uid://je7ertm315cs" path="res://data/assets/terrain_kit/Cave_Prop_Support_Wall_Pillar_1.obj" id="71_jlccn"]
+[ext_resource type="ArrayMesh" uid="uid://duw30ersty5st" path="res://data/assets/terrain_kit/Cave_Prop_Support_Wall_Pillar_2.obj" id="72_305lj"]
+[ext_resource type="ArrayMesh" uid="uid://dtrq2g4jntq46" path="res://data/assets/terrain_kit/Cave_Prop_Support_Wall_Pillar_3.obj" id="73_506fr"]
+[ext_resource type="ArrayMesh" uid="uid://da8of4xvwqddq" path="res://data/assets/terrain_kit/Cave_Prop_Support_Wall_Pillar_4.obj" id="74_6sbq1"]
+[ext_resource type="ArrayMesh" uid="uid://eqlw7oluk4dr" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_1x1_Base.obj" id="75_g1l8p"]
+[ext_resource type="ArrayMesh" uid="uid://cwgoh7qhs57cr" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_1x1_Mid.obj" id="76_45qbq"]
+[ext_resource type="ArrayMesh" uid="uid://d3vlgkpdqrk5n" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_1x1_Top.obj" id="77_toonh"]
+[ext_resource type="ArrayMesh" uid="uid://dv8ar3nprl08j" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_2x2_Base.obj" id="78_c6ow4"]
+[ext_resource type="ArrayMesh" uid="uid://dirvmy8aomhyl" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_2x2_Mid.obj" id="79_8buf6"]
+[ext_resource type="ArrayMesh" uid="uid://bm2apktwnhmb" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_2x2_Top.obj" id="80_bmk15"]
+[ext_resource type="ArrayMesh" uid="uid://4facftgpumn0" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_3x3_Base.obj" id="81_qk4ui"]
+[ext_resource type="ArrayMesh" uid="uid://c12m6pujo5i5o" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_3x3_Mid.obj" id="82_fs1kf"]
+[ext_resource type="ArrayMesh" uid="uid://c3jvpvwy63g2l" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Inner_3x3_Top.obj" id="83_rb8w4"]
+[ext_resource type="ArrayMesh" uid="uid://dhag270kc6ejh" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Outer_1x1_Base.obj" id="84_dln23"]
+[ext_resource type="ArrayMesh" uid="uid://cle5i0ana03vt" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Outer_1x1_Top.obj" id="85_olsi6"]
+[ext_resource type="ArrayMesh" uid="uid://mp5mejhhfvl0" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Outer_2x2_Base.obj" id="86_j8t1u"]
+[ext_resource type="ArrayMesh" uid="uid://b6qfv2mr8qov6" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Outer_2x2_Mid.obj" id="87_k37gv"]
+[ext_resource type="ArrayMesh" uid="uid://b344wv57fwtoc" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Outer_2x2_Top.obj" id="88_uujul"]
+[ext_resource type="ArrayMesh" uid="uid://cmea5wxflx4w7" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Outer_3x3_Mid.obj" id="89_26pje"]
+[ext_resource type="ArrayMesh" uid="uid://mejbty0kba86" path="res://data/assets/terrain_kit/Cave_Terrain_Corner_Outer_3x3_Top.obj" id="90_gatjj"]
+[ext_resource type="ArrayMesh" uid="uid://b5ory3ikwkpwa" path="res://data/assets/terrain_kit/Cave_Terrain_Flat_Round_Inner.obj" id="91_58yov"]
+[ext_resource type="ArrayMesh" uid="uid://dfp5mcu5kn5wt" path="res://data/assets/terrain_kit/Cave_Terrain_Flat_Round_Mid.obj" id="92_to6bk"]
+[ext_resource type="ArrayMesh" uid="uid://dg2dfelgw6hus" path="res://data/assets/terrain_kit/Cave_Terrain_Flat_Round_Outer.obj" id="93_sdh8b"]
+[ext_resource type="ArrayMesh" uid="uid://bb6lrfmj0pyem" path="res://data/assets/terrain_kit/Cave_Terrain_Floor_Normal.obj" id="94_530f2"]
+[ext_resource type="ArrayMesh" uid="uid://ciwijm2c8bmqx" path="res://data/assets/terrain_kit/Cave_Terrain_Floor_Raised.obj" id="95_osouk"]
+[ext_resource type="ArrayMesh" uid="uid://dc4av7t8g0luo" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Corner_Inner_2x2.obj" id="96_jay4x"]
+[ext_resource type="ArrayMesh" uid="uid://dqej3lssbwj3m" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Corner_Inner_4x4.obj" id="97_1tp4t"]
+[ext_resource type="ArrayMesh" uid="uid://ccnamf5w2kq1a" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Corner_Outer_2x2.obj" id="98_gqih7"]
+[ext_resource type="ArrayMesh" uid="uid://b53p45s07x7rt" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Corner_Outer_4x4.obj" id="99_ufcy4"]
+[ext_resource type="ArrayMesh" uid="uid://dt72wycyyj0ex" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Side_Gentle.obj" id="100_0le3k"]
+[ext_resource type="ArrayMesh" uid="uid://bi136p0nrymm" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Side_Overlap_Side.obj" id="101_13j15"]
+[ext_resource type="ArrayMesh" uid="uid://c4ji2towsyrsa" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Side_Sharp.obj" id="102_42ayw"]
+[ext_resource type="ArrayMesh" uid="uid://b8rypq1pqvlyx" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Side_Shift_Gentle.obj" id="103_vtawk"]
+[ext_resource type="ArrayMesh" uid="uid://b22xf2vlr72o1" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Side_Shift_Sharp.obj" id="104_ft6mx"]
+[ext_resource type="ArrayMesh" uid="uid://catyh35fnqih2" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Transition_Gentle_Sharp_Centered.obj" id="105_e2s58"]
+[ext_resource type="ArrayMesh" uid="uid://dfw6j0a8qjuos" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base.obj" id="106_1wcf7"]
+[ext_resource type="ArrayMesh" uid="uid://coulj4j3wc3uf" path="res://data/assets/terrain_kit/Cave_Terrain_Hill_Transition_Gentle_Sharp_Flush_Crest.obj" id="107_sgugo"]
+[ext_resource type="ArrayMesh" uid="uid://bb1nw3nbvg2pi" path="res://data/assets/terrain_kit/Cave_Terrain_Side_Base.obj" id="108_72eg3"]
+[ext_resource type="ArrayMesh" uid="uid://tbaudd42f3cn" path="res://data/assets/terrain_kit/Cave_Terrain_Side_Incline_Base.obj" id="109_uwfun"]
+[ext_resource type="ArrayMesh" uid="uid://dbnmdhws0w36p" path="res://data/assets/terrain_kit/Cave_Terrain_Side_Incline_Top.obj" id="110_qcjfe"]
+[ext_resource type="ArrayMesh" uid="uid://4oulngysldbd" path="res://data/assets/terrain_kit/Cave_Terrain_Side_Mid.obj" id="111_2ahc1"]
+[ext_resource type="ArrayMesh" uid="uid://dvt5df44t72ma" path="res://data/assets/terrain_kit/Cave_Terrain_Side_Top.obj" id="112_dl0jv"]
+[ext_resource type="ArrayMesh" uid="uid://drvfmhifsnqab" path="res://data/assets/terrain_kit/Cliff_Prop_Bridge_Rope_End.obj" id="113_ytig4"]
+[ext_resource type="ArrayMesh" uid="uid://6y44mhhrthqx" path="res://data/assets/terrain_kit/Cliff_Prop_Bridge_Rope_Middle.obj" id="114_cbttd"]
+[ext_resource type="ArrayMesh" uid="uid://tlft3yfhb3hd" path="res://data/assets/terrain_kit/Cliff_Prop_Bridge_Rope_Middle_Support.obj" id="115_771bb"]
+[ext_resource type="ArrayMesh" uid="uid://d1y6xnd8pfck8" path="res://data/assets/terrain_kit/Cliff_Prop_Rock_1.obj" id="116_j2uu3"]
+[ext_resource type="ArrayMesh" uid="uid://drbsnjtpguoeb" path="res://data/assets/terrain_kit/Cliff_Prop_Rock_2.obj" id="117_mee73"]
+[ext_resource type="ArrayMesh" uid="uid://coxi41pm5j4ku" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_1x1_Base.obj" id="118_6y8nn"]
+[ext_resource type="ArrayMesh" uid="uid://ca6iq3ebmw20v" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_1x1_Mid.obj" id="119_yaapw"]
+[ext_resource type="ArrayMesh" uid="uid://b8mvnc88sh03m" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_1x1_Top.obj" id="120_2joua"]
+[ext_resource type="ArrayMesh" uid="uid://d02uqkhq5fj0h" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_2x2_Base.obj" id="121_dw5c2"]
+[ext_resource type="ArrayMesh" uid="uid://bcnvdpr0g0tf5" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_2x2_Mid.obj" id="122_xqm2m"]
+[ext_resource type="ArrayMesh" uid="uid://weixkgvtn35c" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_2x2_Top.obj" id="123_mflrx"]
+[ext_resource type="ArrayMesh" uid="uid://gna7ys8ryhlp" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_3x3_Base.obj" id="124_nl4ff"]
+[ext_resource type="ArrayMesh" uid="uid://bky23wiksuqnb" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_3x3_Mid.obj" id="125_ex0gb"]
+[ext_resource type="ArrayMesh" uid="uid://75u7ow4fe8dc" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Inner_3x3_Top.obj" id="126_j2ysg"]
+[ext_resource type="ArrayMesh" uid="uid://cjc37gmod2gm1" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Outer_1x1_Base.obj" id="127_i73d1"]
+[ext_resource type="ArrayMesh" uid="uid://cngdvgegjj6l5" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Outer_1x1_Top.obj" id="128_55m22"]
+[ext_resource type="ArrayMesh" uid="uid://dmedkpp7afli" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Outer_2x2_Base.obj" id="129_r3v1s"]
+[ext_resource type="ArrayMesh" uid="uid://cvhm6gbrywtey" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Outer_2x2_Mid.obj" id="130_utrgm"]
+[ext_resource type="ArrayMesh" uid="uid://8qxfspvpkxmr" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Outer_2x2_Top.obj" id="131_kowwt"]
+[ext_resource type="ArrayMesh" uid="uid://cebalnyblbomk" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Outer_3x3_Base.obj" id="132_3e40b"]
+[ext_resource type="ArrayMesh" uid="uid://bn87nwy43gs8y" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Outer_3x3_Mid.obj" id="133_3plv4"]
+[ext_resource type="ArrayMesh" uid="uid://bpdka5584wf5u" path="res://data/assets/terrain_kit/Cliff_Terrain_Corner_Outer_3x3_Top.obj" id="134_k8phb"]
+[ext_resource type="ArrayMesh" uid="uid://cas05xp7fxxy6" path="res://data/assets/terrain_kit/Cliff_Terrain_Hill_Base_Top_Joined_Gentle.obj" id="135_aks31"]
+[ext_resource type="ArrayMesh" uid="uid://mh527nf2263d" path="res://data/assets/terrain_kit/Cliff_Terrain_Hill_Base_Top_Joined_Sharp.obj" id="136_vff0r"]
+[ext_resource type="ArrayMesh" uid="uid://cjgi0d4fdiciq" path="res://data/assets/terrain_kit/Cliff_Terrain_Hill_Gentle_Base.obj" id="137_vrlyt"]
+[ext_resource type="ArrayMesh" uid="uid://40euwp45elk6" path="res://data/assets/terrain_kit/Cliff_Terrain_Hill_Gentle_Top.obj" id="138_h1mwm"]
+[ext_resource type="ArrayMesh" uid="uid://cr0awgicxr0q1" path="res://data/assets/terrain_kit/Cliff_Terrain_Hill_Sharp_Base.obj" id="139_ubxom"]
+[ext_resource type="ArrayMesh" uid="uid://fah0l7w6iuvm" path="res://data/assets/terrain_kit/Cliff_Terrain_Hill_Sharp_Top.obj" id="140_rp2v0"]
+[ext_resource type="ArrayMesh" uid="uid://nac2miny57nv" path="res://data/assets/terrain_kit/Cliff_Terrain_Path_Steps_Center.obj" id="141_qobtm"]
+[ext_resource type="ArrayMesh" uid="uid://bjuj5kt24pd0t" path="res://data/assets/terrain_kit/Cliff_Terrain_Path_Steps_Center_Top.obj" id="142_6x5r4"]
+[ext_resource type="ArrayMesh" uid="uid://dq0i3d2dglnn7" path="res://data/assets/terrain_kit/Cliff_Terrain_Path_Steps_Edge.obj" id="143_o44sw"]
+[ext_resource type="ArrayMesh" uid="uid://cs0o2i37d0dg4" path="res://data/assets/terrain_kit/Cliff_Terrain_Path_Steps_Grass_Edge.obj" id="144_ftoeq"]
+[ext_resource type="ArrayMesh" uid="uid://bkarwcjqtav66" path="res://data/assets/terrain_kit/Cliff_Terrain_Path_Steps_Grass_Edge_Top.obj" id="145_l1b55"]
+[ext_resource type="ArrayMesh" uid="uid://cuyont2q1trqb" path="res://data/assets/terrain_kit/Cliff_Terrain_Side_Base.obj" id="146_l2yhx"]
+[ext_resource type="ArrayMesh" uid="uid://dtcnym8umpxji" path="res://data/assets/terrain_kit/Cliff_Terrain_Side_Falloff_Center.obj" id="147_fdrxg"]
+[ext_resource type="ArrayMesh" uid="uid://bbsm63yvvu2pu" path="res://data/assets/terrain_kit/Cliff_Terrain_Side_Falloff_Edge.obj" id="148_kw7mg"]
+[ext_resource type="ArrayMesh" uid="uid://bujs76c573hof" path="res://data/assets/terrain_kit/Cliff_Terrain_Side_Mid.obj" id="149_sqets"]
+[ext_resource type="ArrayMesh" uid="uid://c3vgtsuyq533n" path="res://data/assets/terrain_kit/Cliff_Terrain_Side_Top.obj" id="150_yb2mh"]
+[ext_resource type="ArrayMesh" uid="uid://bc4wbjigqbdyx" path="res://data/assets/terrain_kit/Cliff_Terrain_Waterfall_Base_Flat.obj" id="151_3c8p7"]
+[ext_resource type="ArrayMesh" uid="uid://dxypxl4lh2kxw" path="res://data/assets/terrain_kit/Cliff_Terrain_Waterfall_Base_Hill.obj" id="152_so64g"]
+[ext_resource type="ArrayMesh" uid="uid://dkln5urtrsr4t" path="res://data/assets/terrain_kit/Cliff_Terrain_Waterfall_Mid.obj" id="153_7i41c"]
+[ext_resource type="ArrayMesh" uid="uid://cxebwgyx83i3t" path="res://data/assets/terrain_kit/Cliff_Terrain_Waterfall_Top.obj" id="154_tfsj4"]
+[ext_resource type="ArrayMesh" uid="uid://q7b58tuduw3w" path="res://data/assets/terrain_kit/Cliff_Terrain_Waterfall_Water_Mid.obj" id="155_oolmp"]
+[ext_resource type="ArrayMesh" uid="uid://da45o81c70q4v" path="res://data/assets/terrain_kit/Cliff_Terrain_Waterfall_Water_Mid_Edge.obj" id="156_3ta3v"]
+[ext_resource type="ArrayMesh" uid="uid://d4j761rsro5e2" path="res://data/assets/terrain_kit/Cliff_Terrain_Waterfall_Water_Top.obj" id="157_kb1ph"]
+[ext_resource type="ArrayMesh" uid="uid://26c7dhk8v6rc" path="res://data/assets/terrain_kit/Cliff_Terrain_Waterfall_Water_Top_Edge.obj" id="158_6p5pb"]
+[ext_resource type="ArrayMesh" uid="uid://l1qj1q8c0xpv" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_1x1_Base.obj" id="159_cfkrb"]
+[ext_resource type="ArrayMesh" uid="uid://bvv4laku0fc76" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_1x1_Mid.obj" id="160_67hhg"]
+[ext_resource type="ArrayMesh" uid="uid://ohqpvsp4y5hd" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_1x1_Top.obj" id="161_2go7f"]
+[ext_resource type="ArrayMesh" uid="uid://dsrm14t720tfj" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_2x2_Base.obj" id="162_hrcfg"]
+[ext_resource type="ArrayMesh" uid="uid://bg44cj4liddi5" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_2x2_Mid.obj" id="163_ticnq"]
+[ext_resource type="ArrayMesh" uid="uid://1ewergo8vx3i" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_2x2_Top.obj" id="164_47v3i"]
+[ext_resource type="ArrayMesh" uid="uid://dnyeuxb1lxrtt" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_3x3_Base.obj" id="165_g44xj"]
+[ext_resource type="ArrayMesh" uid="uid://c0k778b3ee327" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_3x3_Mid.obj" id="166_k10nt"]
+[ext_resource type="ArrayMesh" uid="uid://cqamr3r4mgl0u" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Inner_3x3_Top.obj" id="167_uqfyw"]
+[ext_resource type="ArrayMesh" uid="uid://diksvsbn7ck7l" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Outer_1x1_Base.obj" id="168_1eot4"]
+[ext_resource type="ArrayMesh" uid="uid://cp6nt8lql6sha" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Outer_1x1_Top.obj" id="169_5q841"]
+[ext_resource type="ArrayMesh" uid="uid://boenuwi2325l2" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Outer_2x2_Base.obj" id="170_8oir3"]
+[ext_resource type="ArrayMesh" uid="uid://dddi6tnvkdrx" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Outer_2x2_Mid.obj" id="171_6uyaf"]
+[ext_resource type="ArrayMesh" uid="uid://bwjt0uqm0xbfw" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Outer_2x2_Top.obj" id="172_j3gea"]
+[ext_resource type="ArrayMesh" uid="uid://brgy2fc0svtd3" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Outer_3x3_Base.obj" id="173_dlyxa"]
+[ext_resource type="ArrayMesh" uid="uid://brli1cvcle511" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Outer_3x3_Mid.obj" id="174_ddqdr"]
+[ext_resource type="ArrayMesh" uid="uid://bd5hm7wlx1okq" path="res://data/assets/terrain_kit/Escarpment_Terrain_Corner_Outer_3x3_Top.obj" id="175_flj7b"]
+[ext_resource type="ArrayMesh" uid="uid://ctvj440bgwxpm" path="res://data/assets/terrain_kit/Escarpment_Terrain_Hill_Base.obj" id="176_wxjbc"]
+[ext_resource type="ArrayMesh" uid="uid://dtsa8cbqddwdy" path="res://data/assets/terrain_kit/Escarpment_Terrain_Hill_Crest_Top.obj" id="177_4y2hr"]
+[ext_resource type="ArrayMesh" uid="uid://1dirs2xdrylf" path="res://data/assets/terrain_kit/Escarpment_Terrain_Hill_Top.obj" id="178_lnmkq"]
+[ext_resource type="ArrayMesh" uid="uid://cxqetdev7gxpi" path="res://data/assets/terrain_kit/Escarpment_Terrain_Side_Base.obj" id="179_kcuh0"]
+[ext_resource type="ArrayMesh" uid="uid://dcdemdtywnbkp" path="res://data/assets/terrain_kit/Escarpment_Terrain_Side_Falloff_Center.obj" id="180_iwwch"]
+[ext_resource type="ArrayMesh" uid="uid://c4pbxvuhiklp4" path="res://data/assets/terrain_kit/Escarpment_Terrain_Side_Falloff_Edge.obj" id="181_0ieg5"]
+[ext_resource type="ArrayMesh" uid="uid://da3dael6cqx7" path="res://data/assets/terrain_kit/Escarpment_Terrain_Side_Mid.obj" id="182_sjiel"]
+[ext_resource type="ArrayMesh" uid="uid://cjm35ymhuxw2q" path="res://data/assets/terrain_kit/Escarpment_Terrain_Side_Top.obj" id="183_wn8n2"]
+[ext_resource type="ArrayMesh" uid="uid://bbpjiiigrphn4" path="res://data/assets/terrain_kit/Hilly_Prop_Branch_1.obj" id="184_m4b5v"]
+[ext_resource type="ArrayMesh" uid="uid://v8auvdjwf13q" path="res://data/assets/terrain_kit/Hilly_Prop_Branch_2.obj" id="185_qbxee"]
+[ext_resource type="ArrayMesh" uid="uid://biodxya1pc8x1" path="res://data/assets/terrain_kit/Hilly_Prop_Branch_3.obj" id="186_vkygp"]
+[ext_resource type="ArrayMesh" uid="uid://udnds3bvpa64" path="res://data/assets/terrain_kit/Hilly_Prop_Bridge_Log_End.obj" id="187_m1daj"]
+[ext_resource type="ArrayMesh" uid="uid://i5tti17s78of" path="res://data/assets/terrain_kit/Hilly_Prop_Bridge_Log_End_Edge.obj" id="188_miafe"]
+[ext_resource type="ArrayMesh" uid="uid://b14hfaic4oerd" path="res://data/assets/terrain_kit/Hilly_Prop_Bridge_Log_Middle.obj" id="189_lw72n"]
+[ext_resource type="ArrayMesh" uid="uid://okdcv1tpf3js" path="res://data/assets/terrain_kit/Hilly_Prop_Bridge_Log_Middle_Edge.obj" id="190_4k3bh"]
+[ext_resource type="ArrayMesh" uid="uid://cll5086xgaxay" path="res://data/assets/terrain_kit/Hilly_Prop_Bridge_Log_Post_Support.obj" id="191_0l6m5"]
+[ext_resource type="ArrayMesh" uid="uid://bx4mv4rl757lb" path="res://data/assets/terrain_kit/Hilly_Prop_Bridge_Log_Post_Top.obj" id="192_5wp8i"]
+[ext_resource type="ArrayMesh" uid="uid://cp6bavtwcqoir" path="res://data/assets/terrain_kit/Hilly_Prop_Bush_1.obj" id="193_d5321"]
+[ext_resource type="ArrayMesh" uid="uid://cte7vtxy5vcx2" path="res://data/assets/terrain_kit/Hilly_Prop_Bush_2.obj" id="194_q1gb6"]
+[ext_resource type="ArrayMesh" uid="uid://cfl5idfqp8f1a" path="res://data/assets/terrain_kit/Hilly_Prop_Bush_3.obj" id="195_avb5u"]
+[ext_resource type="ArrayMesh" uid="uid://6sysgheqni6e" path="res://data/assets/terrain_kit/Hilly_Prop_Bush_4.obj" id="196_2dykw"]
+[ext_resource type="ArrayMesh" uid="uid://dckxnkskcdsn2" path="res://data/assets/terrain_kit/Hilly_Prop_Camp_Campfire.obj" id="197_1b5e3"]
+[ext_resource type="ArrayMesh" uid="uid://lluqtehqlamf" path="res://data/assets/terrain_kit/Hilly_Prop_Camp_Lean_To.obj" id="198_s348g"]
+[ext_resource type="ArrayMesh" uid="uid://bla7vwoxx8b8y" path="res://data/assets/terrain_kit/Hilly_Prop_Camp_Sitting_Log.obj" id="199_fllbo"]
+[ext_resource type="ArrayMesh" uid="uid://cojtgcpc5j7ep" path="res://data/assets/terrain_kit/Hilly_Prop_Camp_Wood_Pile.obj" id="200_fasex"]
+[ext_resource type="ArrayMesh" uid="uid://wwr0mttf6c2h" path="res://data/assets/terrain_kit/Hilly_Prop_Cattail_1.obj" id="201_n6gar"]
+[ext_resource type="ArrayMesh" uid="uid://bxu4c3t8n0vuw" path="res://data/assets/terrain_kit/Hilly_Prop_Cattail_2.obj" id="202_tsman"]
+[ext_resource type="ArrayMesh" uid="uid://dtsmp053y58ob" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Boards_1.obj" id="203_pigrg"]
+[ext_resource type="ArrayMesh" uid="uid://omj1cnowrsnn" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Boards_2.obj" id="204_dnkx1"]
+[ext_resource type="ArrayMesh" uid="uid://v76cawwfbva6" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Boards_3.obj" id="205_sl2as"]
+[ext_resource type="ArrayMesh" uid="uid://d24b2ox1ciima" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Boards_4.obj" id="206_b11br"]
+[ext_resource type="ArrayMesh" uid="uid://c1up4gj1ocaij" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Curve_1x1.obj" id="207_1pgls"]
+[ext_resource type="ArrayMesh" uid="uid://bjcsw8fb6yvty" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Curve_2x2.obj" id="208_iwgns"]
+[ext_resource type="ArrayMesh" uid="uid://drk3tp7rjtpe0" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Curve_3x3.obj" id="209_do7te"]
+[ext_resource type="ArrayMesh" uid="uid://dkmsvopeydc5x" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Gate_1.obj" id="210_cubjx"]
+[ext_resource type="ArrayMesh" uid="uid://b7oc7tfo7rkp0" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Gate_2.obj" id="211_xbnkf"]
+[ext_resource type="ArrayMesh" uid="uid://clk7u1q2sauyh" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Hill_Gentle.obj" id="212_a807f"]
+[ext_resource type="ArrayMesh" uid="uid://c1atfu11rreu6" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Hill_Sharp.obj" id="213_yof2a"]
+[ext_resource type="ArrayMesh" uid="uid://bh5tfxamog4dq" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Post_1.obj" id="214_17dso"]
+[ext_resource type="ArrayMesh" uid="uid://7wdt3tw6yprk" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Post_2.obj" id="215_adufo"]
+[ext_resource type="ArrayMesh" uid="uid://rlyxhtcfpptx" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Post_3.obj" id="216_iq68j"]
+[ext_resource type="ArrayMesh" uid="uid://dlwdblrhp6c16" path="res://data/assets/terrain_kit/Hilly_Prop_Fence_Post_4.obj" id="217_pmjp3"]
+[ext_resource type="ArrayMesh" uid="uid://bnos6p08y2hgw" path="res://data/assets/terrain_kit/Hilly_Prop_Flower_Daisy.obj" id="218_dk07p"]
+[ext_resource type="ArrayMesh" uid="uid://k88myfxyta4o" path="res://data/assets/terrain_kit/Hilly_Prop_Flower_Lily_Blue.obj" id="219_lh6e5"]
+[ext_resource type="ArrayMesh" uid="uid://rar6jbuogmp5" path="res://data/assets/terrain_kit/Hilly_Prop_Flower_Lily_Pink.obj" id="220_o6ore"]
+[ext_resource type="ArrayMesh" uid="uid://10yjcag35m6q" path="res://data/assets/terrain_kit/Hilly_Prop_Flower_Rose.obj" id="221_flq65"]
+[ext_resource type="ArrayMesh" uid="uid://b0lp1865kag54" path="res://data/assets/terrain_kit/Hilly_Prop_Flower_Sunflower.obj" id="222_o61g2"]
+[ext_resource type="ArrayMesh" uid="uid://d043v2r0nwr37" path="res://data/assets/terrain_kit/Hilly_Prop_Flower_Tulip.obj" id="223_084ry"]
+[ext_resource type="ArrayMesh" uid="uid://b2vhgutieb7w6" path="res://data/assets/terrain_kit/Hilly_Prop_Grass_Clump_1.obj" id="224_82k5o"]
+[ext_resource type="ArrayMesh" uid="uid://cue4h4ge8ql5k" path="res://data/assets/terrain_kit/Hilly_Prop_Grass_Clump_2.obj" id="225_eytcg"]
+[ext_resource type="ArrayMesh" uid="uid://b3y2ss5moi5y4" path="res://data/assets/terrain_kit/Hilly_Prop_Grass_Clump_3.obj" id="226_7bgwh"]
+[ext_resource type="ArrayMesh" uid="uid://d3ox73xry7hv" path="res://data/assets/terrain_kit/Hilly_Prop_Grass_Clump_4.obj" id="227_3kc50"]
+[ext_resource type="ArrayMesh" uid="uid://clvyvyc7bt66n" path="res://data/assets/terrain_kit/Hilly_Prop_Hollow_Trunk.obj" id="228_gxnk2"]
+[ext_resource type="ArrayMesh" uid="uid://wd3mlvoxnsys" path="res://data/assets/terrain_kit/Hilly_Prop_Mushroom_1.obj" id="229_0sakb"]
+[ext_resource type="ArrayMesh" uid="uid://612dxukpkj40" path="res://data/assets/terrain_kit/Hilly_Prop_Mushroom_2.obj" id="230_t6u8d"]
+[ext_resource type="ArrayMesh" uid="uid://ccj1o51eeioqt" path="res://data/assets/terrain_kit/Hilly_Prop_Rock_1.obj" id="231_oajec"]
+[ext_resource type="ArrayMesh" uid="uid://bulxgroanjmfa" path="res://data/assets/terrain_kit/Hilly_Prop_Rock_2.obj" id="232_unc13"]
+[ext_resource type="ArrayMesh" uid="uid://c8huqklvcoi2w" path="res://data/assets/terrain_kit/Hilly_Prop_Rock_3.obj" id="233_nktbi"]
+[ext_resource type="ArrayMesh" uid="uid://qhug0wm2l25h" path="res://data/assets/terrain_kit/Hilly_Prop_Rock_4.obj" id="234_bb7uy"]
+[ext_resource type="ArrayMesh" uid="uid://b5bqitja52bif" path="res://data/assets/terrain_kit/Hilly_Prop_Ruins_Pillar_1.obj" id="235_3ifjp"]
+[ext_resource type="ArrayMesh" uid="uid://cpn1hhtjp660" path="res://data/assets/terrain_kit/Hilly_Prop_Ruins_Pillar_2.obj" id="236_kfrnj"]
+[ext_resource type="ArrayMesh" uid="uid://e1s4lnfn8473" path="res://data/assets/terrain_kit/Hilly_Prop_Ruins_Pillar_3.obj" id="237_2s4y4"]
+[ext_resource type="ArrayMesh" uid="uid://bifp7veai6yjp" path="res://data/assets/terrain_kit/Hilly_Prop_Ruins_Pillar_4.obj" id="238_d1b10"]
+[ext_resource type="ArrayMesh" uid="uid://clsg2jgclc8is" path="res://data/assets/terrain_kit/Hilly_Prop_Ruins_Pillar_5.obj" id="239_6lwvm"]
+[ext_resource type="ArrayMesh" uid="uid://c4kleue5m77fa" path="res://data/assets/terrain_kit/Hilly_Prop_Stepping_Stones_1.obj" id="240_ru813"]
+[ext_resource type="ArrayMesh" uid="uid://dghncvko5kl13" path="res://data/assets/terrain_kit/Hilly_Prop_Stepping_Stones_2.obj" id="241_noybt"]
+[ext_resource type="ArrayMesh" uid="uid://cvh5swehorj2j" path="res://data/assets/terrain_kit/Hilly_Prop_Stepping_Stones_3.obj" id="242_r1ura"]
+[ext_resource type="ArrayMesh" uid="uid://b0mg8qy10hyuj" path="res://data/assets/terrain_kit/Hilly_Prop_Stepping_Stones_4.obj" id="243_x8c0d"]
+[ext_resource type="ArrayMesh" uid="uid://bhtq62q56gnnl" path="res://data/assets/terrain_kit/Hilly_Prop_Stepping_Stones_5.obj" id="244_qy3bl"]
+[ext_resource type="ArrayMesh" uid="uid://dxf1mp2qv4rkd" path="res://data/assets/terrain_kit/Hilly_Prop_Stepping_Stones_6.obj" id="245_8e68d"]
+[ext_resource type="ArrayMesh" uid="uid://djv1xe71rj2ts" path="res://data/assets/terrain_kit/Hilly_Prop_Stepping_Stones_7.obj" id="246_qy8wb"]
+[ext_resource type="ArrayMesh" uid="uid://cvx7ohvjglo5f" path="res://data/assets/terrain_kit/Hilly_Prop_Stepping_Stones_8.obj" id="247_1trhf"]
+[ext_resource type="ArrayMesh" uid="uid://mqsjbuek00bt" path="res://data/assets/terrain_kit/Hilly_Prop_Stump.obj" id="248_276es"]
+[ext_resource type="ArrayMesh" uid="uid://cpcysoqbi0g84" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Cedar_1.obj" id="249_r8cl1"]
+[ext_resource type="ArrayMesh" uid="uid://b1j7ar74d33j0" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Cedar_2.obj" id="250_u24eh"]
+[ext_resource type="ArrayMesh" uid="uid://cpfnw7bsila6k" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Oak_1.obj" id="251_ktujt"]
+[ext_resource type="ArrayMesh" uid="uid://jtmipqq2xp7p" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Oak_2.obj" id="252_kj33q"]
+[ext_resource type="ArrayMesh" uid="uid://ddceykxbjc805" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Oak_3.obj" id="253_1ak8q"]
+[ext_resource type="ArrayMesh" uid="uid://dd1be4gs0rwye" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Oak_4.obj" id="254_qkv0j"]
+[ext_resource type="ArrayMesh" uid="uid://prhxufhhxrw" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Pine_1.obj" id="255_kpcqa"]
+[ext_resource type="ArrayMesh" uid="uid://p1gekwjhledi" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Pine_2.obj" id="256_h585r"]
+[ext_resource type="ArrayMesh" uid="uid://dgqykwpk4sls8" path="res://data/assets/terrain_kit/Hilly_Prop_Tree_Pine_3.obj" id="257_hk4mr"]
+[ext_resource type="ArrayMesh" uid="uid://dy1mvfmhevahk" path="res://data/assets/terrain_kit/Hilly_Terrain_Grass_Floor.obj" id="258_bku6e"]
+[ext_resource type="ArrayMesh" uid="uid://clbboytlcq03" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Corner_Inner_2x2.obj" id="259_imydg"]
+[ext_resource type="ArrayMesh" uid="uid://d2l5u0nnoa5tq" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Corner_Inner_3x3.obj" id="260_0jrsh"]
+[ext_resource type="ArrayMesh" uid="uid://charc6js07sh0" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Corner_Inner_4x4.obj" id="261_3ya6x"]
+[ext_resource type="ArrayMesh" uid="uid://ceslvty8tqfes" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Corner_Outer_2x2.obj" id="262_m0usx"]
+[ext_resource type="ArrayMesh" uid="uid://b26oxdr4kl1i6" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Corner_Outer_3x3.obj" id="263_ujbve"]
+[ext_resource type="ArrayMesh" uid="uid://bgpa72ddx13dv" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Corner_Outer_4x4.obj" id="264_8vhn1"]
+[ext_resource type="ArrayMesh" uid="uid://dfledu11om6wi" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Side_Gentle.obj" id="265_whcpu"]
+[ext_resource type="ArrayMesh" uid="uid://dxwqvykewncyp" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Side_Overlap_Side.obj" id="266_jsama"]
+[ext_resource type="ArrayMesh" uid="uid://bixv0t0nokkt6" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Side_Sharp.obj" id="267_k2atd"]
+[ext_resource type="ArrayMesh" uid="uid://qlexgc00717h" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Side_Shift_Gentle.obj" id="268_t3oqv"]
+[ext_resource type="ArrayMesh" uid="uid://5c483wjrryxw" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Side_Shift_Sharp.obj" id="269_pgm7c"]
+[ext_resource type="ArrayMesh" uid="uid://d3plht5wh1nw3" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Centered.obj" id="270_bg5nh"]
+[ext_resource type="ArrayMesh" uid="uid://bdtqihb4kugih" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base.obj" id="271_ue8a7"]
+[ext_resource type="ArrayMesh" uid="uid://cpo60w7u4y5l0" path="res://data/assets/terrain_kit/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Crest.obj" id="272_i75al"]
+[ext_resource type="ArrayMesh" uid="uid://cpj58i02omhf5" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Center.obj" id="273_yxjw3"]
+[ext_resource type="ArrayMesh" uid="uid://cl80jxc2wps0" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Inner_1x1.obj" id="274_4atgf"]
+[ext_resource type="ArrayMesh" uid="uid://3piuwsvistt6" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Inner_2x2.obj" id="275_xbti8"]
+[ext_resource type="ArrayMesh" uid="uid://dfibrpqdlk816" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Inner_3x3.obj" id="276_ycpg8"]
+[ext_resource type="ArrayMesh" uid="uid://cnfr3qmcel8g6" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Outer_1x1.obj" id="277_yw4dp"]
+[ext_resource type="ArrayMesh" uid="uid://c6rce5xrg1ggb" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Outer_2x2.obj" id="278_0xad2"]
+[ext_resource type="ArrayMesh" uid="uid://dg2whi7gsweif" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Outer_3x3.obj" id="279_ofbrg"]
+[ext_resource type="ArrayMesh" uid="uid://d3yoiegnybe8a" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Outer_4x4.obj" id="280_5e6n6"]
+[ext_resource type="ArrayMesh" uid="uid://da5aphuh8777t" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Y_2x2.obj" id="281_7wpto"]
+[ext_resource type="ArrayMesh" uid="uid://bv134rxnk3paf" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Corner_Y_3x3.obj" id="282_wde17"]
+[ext_resource type="ArrayMesh" uid="uid://tmgyq516tljk" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Esse_2x3.obj" id="283_83wdm"]
+[ext_resource type="ArrayMesh" uid="uid://cs2i6acixngsf" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Hill_Gentle_Plain_Center.obj" id="284_urquo"]
+[ext_resource type="ArrayMesh" uid="uid://cd45oes4lxm0g" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Hill_Gentle_Plain_Side.obj" id="285_q6um2"]
+[ext_resource type="ArrayMesh" uid="uid://bvy6bs5vnvksm" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Hill_Sharp_Plain_Center.obj" id="286_aatuo"]
+[ext_resource type="ArrayMesh" uid="uid://bakt72litaqmm" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Hill_Sharp_Plain_Side.obj" id="287_qfxie"]
+[ext_resource type="ArrayMesh" uid="uid://d0vwx8uyo3q1p" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Hill_Sharp_Steps_Center.obj" id="288_gmids"]
+[ext_resource type="ArrayMesh" uid="uid://dldelmskrs0lo" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Hill_Sharp_Steps_Side.obj" id="289_7xawt"]
+[ext_resource type="ArrayMesh" uid="uid://fur4cffjbasu" path="res://data/assets/terrain_kit/Hilly_Terrain_Path_Side.obj" id="290_uceli"]
+[ext_resource type="ArrayMesh" uid="uid://d3g5yqwut4crt" path="res://data/assets/terrain_kit/Hilly_Terrain_Water_Curve.obj" id="291_asjuu"]
+[ext_resource type="ArrayMesh" uid="uid://da73cppji42fn" path="res://data/assets/terrain_kit/Hilly_Terrain_Water_Flat.obj" id="292_eat1e"]
+[ext_resource type="ArrayMesh" uid="uid://uh5suvac4i0b" path="res://data/assets/terrain_kit/Hilly_Terrain_Water_Slope.obj" id="293_urr28"]
+[ext_resource type="ArrayMesh" uid="uid://bryxmlg4gqin3" path="res://data/assets/terrain_kit/Mountain_1.obj" id="294_wsnp0"]
+[ext_resource type="ArrayMesh" uid="uid://b46p02s14wgjb" path="res://data/assets/terrain_kit/Mountain_2.obj" id="295_47xut"]
+[ext_resource type="ArrayMesh" uid="uid://cc1bdn0157k1j" path="res://data/assets/terrain_kit/Mountain_3.obj" id="296_g44r7"]
+[ext_resource type="ArrayMesh" uid="uid://53td0sf8j76k" path="res://data/assets/terrain_kit/Mountain_4.obj" id="297_thg26"]
+[ext_resource type="ArrayMesh" uid="uid://bm7ulytpqisbn" path="res://data/assets/terrain_kit/Shared_Prop_Boulder_1.obj" id="298_dl27m"]
+[ext_resource type="ArrayMesh" uid="uid://gari25xet1et" path="res://data/assets/terrain_kit/Shared_Prop_Boulder_2.obj" id="299_kgnvi"]
+[ext_resource type="ArrayMesh" uid="uid://br8sf1qtwqk7t" path="res://data/assets/terrain_kit/Shared_Prop_Boulder_3.obj" id="300_l0gu6"]
+[ext_resource type="ArrayMesh" uid="uid://df530s7i3cw5s" path="res://data/assets/terrain_kit/Shared_Prop_Boulder_4.obj" id="301_m1lgt"]
+[ext_resource type="ArrayMesh" uid="uid://b36ptlr3ldcox" path="res://data/assets/terrain_kit/Shared_Prop_Boulder_5.obj" id="302_b6qui"]
+[ext_resource type="ArrayMesh" uid="uid://dp8b4q581fqka" path="res://data/assets/terrain_kit/Shared_Prop_Boulder_6.obj" id="303_wcoob"]
+[ext_resource type="ArrayMesh" uid="uid://cl0g1fcja32rp" path="res://data/assets/terrain_kit/Shared_Terrain_Dirt_Gathered_Corner.obj" id="304_7dpgk"]
+[ext_resource type="ArrayMesh" uid="uid://o7a043c8fkt2" path="res://data/assets/terrain_kit/Shared_Terrain_Dirt_Gathered_Straight.obj" id="305_gbb6q"]
+
+[node name="Terrain_kit" type="Node3D"]
+
+[node name="BeachPropCoconut1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("1_whgs2")
+
+[node name="BeachPropDocksCorner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("2_00ast")
+
+[node name="BeachPropDocksCornerSupports" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("3_8hqj4")
+
+[node name="BeachPropDocksSteps" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("4_0y58d")
+
+[node name="BeachPropDocksStraight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("5_bhm50")
+
+[node name="BeachPropDocksStraightSupports" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("6_0p3t7")
+
+[node name="BeachPropShell1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("7_bxim3")
+
+[node name="BeachPropShell2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("8_pnvpi")
+
+[node name="BeachPropStarfish1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("9_qtr0y")
+
+[node name="BeachPropStarfish2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("10_v0b3k")
+
+[node name="BeachPropTreasureChest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("11_4loum")
+
+[node name="BeachPropTreePalm1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("12_60v62")
+
+[node name="BeachPropTreePalm2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("13_2h85k")
+
+[node name="BeachPropTreePalm3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("14_pox0j")
+
+[node name="BeachTerrainSandCornerInner2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("15_rx8mu")
+
+[node name="BeachTerrainSandCornerInner4x4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("16_k0hpk")
+
+[node name="BeachTerrainSandCornerOuter2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("17_bf3o6")
+
+[node name="BeachTerrainSandCornerOuter4x4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("18_umh1b")
+
+[node name="BeachTerrainSandFloor" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("19_3rsl0")
+
+[node name="BeachTerrainSandFloorRaised" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("20_xrp1e")
+
+[node name="BeachTerrainSandSideGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("21_05ga6")
+
+[node name="BeachTerrainSandSideOverlapSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("22_mwrvl")
+
+[node name="BeachTerrainSandSideSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("23_klh40")
+
+[node name="BeachTerrainSandSideShiftGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("24_cxrvk")
+
+[node name="BeachTerrainSandSideShiftSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("25_0pwrm")
+
+[node name="BeachTerrainSandTransitionGentleSharpCentered" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("26_doipc")
+
+[node name="BeachTerrainSandTransitionGentleSharpFlushBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("27_jp25c")
+
+[node name="BeachTerrainSandTransitionGentleSharpFlushCrest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("28_lehdj")
+
+[node name="CaveCliffTerrainEntranceFlatBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("29_7mkii")
+
+[node name="CaveCliffTerrainEntranceRoundBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("30_x0f3k")
+
+[node name="CaveCliffTerrainEntranceRoundTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("31_o0w22")
+
+[node name="CaveCliffTerrainEntranceRoundTopCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("32_aai87")
+
+[node name="CavePropEntrance1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("33_3wyqy")
+
+[node name="CavePropHangingCables1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("34_yx3x8")
+
+[node name="CavePropHangingCables2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("35_ghjku")
+
+[node name="CavePropHangingCables3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("36_h61eg")
+
+[node name="CavePropHangingLamp1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("37_06t7j")
+
+[node name="CavePropMinecart1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("38_6asfh")
+
+[node name="CavePropPickLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("39_ew6v0")
+
+[node name="CavePropPickSmall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("40_p13o1")
+
+[node name="CavePropRailwayBumpstop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("41_kgxxp")
+
+[node name="CavePropRailwayCurveLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("42_5tsxw")
+
+[node name="CavePropRailwayCurveSmall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("43_d27cf")
+
+[node name="CavePropRailwayHillGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("44_pgt7x")
+
+[node name="CavePropRailwayHillSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("45_kia8d")
+
+[node name="CavePropRailwayIntersection" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("46_o8m6t")
+
+[node name="CavePropRailwayStraight1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("47_u115t")
+
+[node name="CavePropRailwayStraight2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("48_vfasb")
+
+[node name="CavePropRailwayStraight3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("49_q166e")
+
+[node name="CavePropRailwayStraight4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("50_x2ncu")
+
+[node name="CavePropRailwaySwitch" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("51_jr8y5")
+
+[node name="CavePropStalagmiteConnectedBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("52_ogwcq")
+
+[node name="CavePropStalagmiteConnectedMid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("53_qn2lb")
+
+[node name="CavePropStalagmiteConnectedTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("54_2siiq")
+
+[node name="CavePropStalagmiteNormal" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("55_7554p")
+
+[node name="CavePropStalagmiteTiny" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("56_tgths")
+
+[node name="CavePropSupportCeilingBeam1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("57_iedhv")
+
+[node name="CavePropSupportCeilingBeam2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("58_1bdwb")
+
+[node name="CavePropSupportCeilingBeam3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("59_ug07u")
+
+[node name="CavePropSupportCeilingBeam4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("60_l824d")
+
+[node name="CavePropSupportCeilingBoards1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("61_jbrx1")
+
+[node name="CavePropSupportCeilingBoards2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("62_hiuyc")
+
+[node name="CavePropSupportCeilingBoards3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("63_4p2ox")
+
+[node name="CavePropSupportCeilingBoards4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("64_7ub3i")
+
+[node name="CavePropSupportCornerBrace1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("65_mxqir")
+
+[node name="CavePropSupportCornerBrace2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("66_p0oml")
+
+[node name="CavePropSupportWallBoards1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("67_m0aig")
+
+[node name="CavePropSupportWallBoards2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("68_ukq61")
+
+[node name="CavePropSupportWallBoards3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("69_ykl6r")
+
+[node name="CavePropSupportWallBoards4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("70_ch7kr")
+
+[node name="CavePropSupportWallPillar1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("71_jlccn")
+
+[node name="CavePropSupportWallPillar2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("72_305lj")
+
+[node name="CavePropSupportWallPillar3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("73_506fr")
+
+[node name="CavePropSupportWallPillar4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("74_6sbq1")
+
+[node name="CaveTerrainCornerInner1x1Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("75_g1l8p")
+
+[node name="CaveTerrainCornerInner1x1Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("76_45qbq")
+
+[node name="CaveTerrainCornerInner1x1Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("77_toonh")
+
+[node name="CaveTerrainCornerInner2x2Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("78_c6ow4")
+
+[node name="CaveTerrainCornerInner2x2Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("79_8buf6")
+
+[node name="CaveTerrainCornerInner2x2Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("80_bmk15")
+
+[node name="CaveTerrainCornerInner3x3Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("81_qk4ui")
+
+[node name="CaveTerrainCornerInner3x3Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("82_fs1kf")
+
+[node name="CaveTerrainCornerInner3x3Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("83_rb8w4")
+
+[node name="CaveTerrainCornerOuter1x1Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("84_dln23")
+
+[node name="CaveTerrainCornerOuter1x1Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("85_olsi6")
+
+[node name="CaveTerrainCornerOuter2x2Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("86_j8t1u")
+
+[node name="CaveTerrainCornerOuter2x2Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("87_k37gv")
+
+[node name="CaveTerrainCornerOuter2x2Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("88_uujul")
+
+[node name="CaveTerrainCornerOuter3x3Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("89_26pje")
+
+[node name="CaveTerrainCornerOuter3x3Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("90_gatjj")
+
+[node name="CaveTerrainFlatRoundInner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("91_58yov")
+
+[node name="CaveTerrainFlatRoundMid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("92_to6bk")
+
+[node name="CaveTerrainFlatRoundOuter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("93_sdh8b")
+
+[node name="CaveTerrainFloorNormal" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("94_530f2")
+
+[node name="CaveTerrainFloorRaised" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("95_osouk")
+
+[node name="CaveTerrainHillCornerInner2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("96_jay4x")
+
+[node name="CaveTerrainHillCornerInner4x4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("97_1tp4t")
+
+[node name="CaveTerrainHillCornerOuter2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("98_gqih7")
+
+[node name="CaveTerrainHillCornerOuter4x4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("99_ufcy4")
+
+[node name="CaveTerrainHillSideGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("100_0le3k")
+
+[node name="CaveTerrainHillSideOverlapSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("101_13j15")
+
+[node name="CaveTerrainHillSideSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("102_42ayw")
+
+[node name="CaveTerrainHillSideShiftGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("103_vtawk")
+
+[node name="CaveTerrainHillSideShiftSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("104_ft6mx")
+
+[node name="CaveTerrainHillTransitionGentleSharpCentered" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("105_e2s58")
+
+[node name="CaveTerrainHillTransitionGentleSharpFlushBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("106_1wcf7")
+
+[node name="CaveTerrainHillTransitionGentleSharpFlushCrest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("107_sgugo")
+
+[node name="CaveTerrainSideBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("108_72eg3")
+
+[node name="CaveTerrainSideInclineBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("109_uwfun")
+
+[node name="CaveTerrainSideInclineTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("110_qcjfe")
+
+[node name="CaveTerrainSideMid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("111_2ahc1")
+
+[node name="CaveTerrainSideTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("112_dl0jv")
+
+[node name="CliffPropBridgeRopeEnd" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("113_ytig4")
+
+[node name="CliffPropBridgeRopeMiddle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("114_cbttd")
+
+[node name="CliffPropBridgeRopeMiddleSupport" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("115_771bb")
+
+[node name="CliffPropRock1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("116_j2uu3")
+
+[node name="CliffPropRock2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("117_mee73")
+
+[node name="CliffTerrainCornerInner1x1Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("118_6y8nn")
+
+[node name="CliffTerrainCornerInner1x1Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("119_yaapw")
+
+[node name="CliffTerrainCornerInner1x1Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("120_2joua")
+
+[node name="CliffTerrainCornerInner2x2Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("121_dw5c2")
+
+[node name="CliffTerrainCornerInner2x2Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("122_xqm2m")
+
+[node name="CliffTerrainCornerInner2x2Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("123_mflrx")
+
+[node name="CliffTerrainCornerInner3x3Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("124_nl4ff")
+
+[node name="CliffTerrainCornerInner3x3Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("125_ex0gb")
+
+[node name="CliffTerrainCornerInner3x3Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("126_j2ysg")
+
+[node name="CliffTerrainCornerOuter1x1Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("127_i73d1")
+
+[node name="CliffTerrainCornerOuter1x1Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("128_55m22")
+
+[node name="CliffTerrainCornerOuter2x2Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("129_r3v1s")
+
+[node name="CliffTerrainCornerOuter2x2Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("130_utrgm")
+
+[node name="CliffTerrainCornerOuter2x2Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("131_kowwt")
+
+[node name="CliffTerrainCornerOuter3x3Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("132_3e40b")
+
+[node name="CliffTerrainCornerOuter3x3Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("133_3plv4")
+
+[node name="CliffTerrainCornerOuter3x3Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("134_k8phb")
+
+[node name="CliffTerrainHillBaseTopJoinedGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("135_aks31")
+
+[node name="CliffTerrainHillBaseTopJoinedSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("136_vff0r")
+
+[node name="CliffTerrainHillGentleBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("137_vrlyt")
+
+[node name="CliffTerrainHillGentleTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("138_h1mwm")
+
+[node name="CliffTerrainHillSharpBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("139_ubxom")
+
+[node name="CliffTerrainHillSharpTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("140_rp2v0")
+
+[node name="CliffTerrainPathStepsCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("141_qobtm")
+
+[node name="CliffTerrainPathStepsCenterTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("142_6x5r4")
+
+[node name="CliffTerrainPathStepsEdge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("143_o44sw")
+
+[node name="CliffTerrainPathStepsGrassEdge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("144_ftoeq")
+
+[node name="CliffTerrainPathStepsGrassEdgeTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("145_l1b55")
+
+[node name="CliffTerrainSideBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("146_l2yhx")
+
+[node name="CliffTerrainSideFalloffCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("147_fdrxg")
+
+[node name="CliffTerrainSideFalloffEdge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("148_kw7mg")
+
+[node name="CliffTerrainSideMid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("149_sqets")
+
+[node name="CliffTerrainSideTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("150_yb2mh")
+
+[node name="CliffTerrainWaterfallBaseFlat" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("151_3c8p7")
+
+[node name="CliffTerrainWaterfallBaseHill" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("152_so64g")
+
+[node name="CliffTerrainWaterfallMid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("153_7i41c")
+
+[node name="CliffTerrainWaterfallTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("154_tfsj4")
+
+[node name="CliffTerrainWaterfallWaterMid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("155_oolmp")
+
+[node name="CliffTerrainWaterfallWaterMidEdge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("156_3ta3v")
+
+[node name="CliffTerrainWaterfallWaterTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("157_kb1ph")
+
+[node name="CliffTerrainWaterfallWaterTopEdge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("158_6p5pb")
+
+[node name="EscarpmentTerrainCornerInner1x1Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("159_cfkrb")
+
+[node name="EscarpmentTerrainCornerInner1x1Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("160_67hhg")
+
+[node name="EscarpmentTerrainCornerInner1x1Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("161_2go7f")
+
+[node name="EscarpmentTerrainCornerInner2x2Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("162_hrcfg")
+
+[node name="EscarpmentTerrainCornerInner2x2Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("163_ticnq")
+
+[node name="EscarpmentTerrainCornerInner2x2Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("164_47v3i")
+
+[node name="EscarpmentTerrainCornerInner3x3Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("165_g44xj")
+
+[node name="EscarpmentTerrainCornerInner3x3Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("166_k10nt")
+
+[node name="EscarpmentTerrainCornerInner3x3Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("167_uqfyw")
+
+[node name="EscarpmentTerrainCornerOuter1x1Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("168_1eot4")
+
+[node name="EscarpmentTerrainCornerOuter1x1Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("169_5q841")
+
+[node name="EscarpmentTerrainCornerOuter2x2Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("170_8oir3")
+
+[node name="EscarpmentTerrainCornerOuter2x2Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("171_6uyaf")
+
+[node name="EscarpmentTerrainCornerOuter2x2Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("172_j3gea")
+
+[node name="EscarpmentTerrainCornerOuter3x3Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("173_dlyxa")
+
+[node name="EscarpmentTerrainCornerOuter3x3Mid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("174_ddqdr")
+
+[node name="EscarpmentTerrainCornerOuter3x3Top" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("175_flj7b")
+
+[node name="EscarpmentTerrainHillBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("176_wxjbc")
+
+[node name="EscarpmentTerrainHillCrestTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("177_4y2hr")
+
+[node name="EscarpmentTerrainHillTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("178_lnmkq")
+
+[node name="EscarpmentTerrainSideBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("179_kcuh0")
+
+[node name="EscarpmentTerrainSideFalloffCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("180_iwwch")
+
+[node name="EscarpmentTerrainSideFalloffEdge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("181_0ieg5")
+
+[node name="EscarpmentTerrainSideMid" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("182_sjiel")
+
+[node name="EscarpmentTerrainSideTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("183_wn8n2")
+
+[node name="HillyPropBranch1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("184_m4b5v")
+
+[node name="HillyPropBranch2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("185_qbxee")
+
+[node name="HillyPropBranch3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("186_vkygp")
+
+[node name="HillyPropBridgeLogEnd" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("187_m1daj")
+
+[node name="HillyPropBridgeLogEndEdge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("188_miafe")
+
+[node name="HillyPropBridgeLogMiddle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("189_lw72n")
+
+[node name="HillyPropBridgeLogMiddleEdge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("190_4k3bh")
+
+[node name="HillyPropBridgeLogPostSupport" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("191_0l6m5")
+
+[node name="HillyPropBridgeLogPostTop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("192_5wp8i")
+
+[node name="HillyPropBush1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("193_d5321")
+
+[node name="HillyPropBush2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("194_q1gb6")
+
+[node name="HillyPropBush3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("195_avb5u")
+
+[node name="HillyPropBush4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("196_2dykw")
+
+[node name="HillyPropCampCampfire" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("197_1b5e3")
+
+[node name="HillyPropCampLeanTo" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("198_s348g")
+
+[node name="HillyPropCampSittingLog" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("199_fllbo")
+
+[node name="HillyPropCampWoodPile" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("200_fasex")
+
+[node name="HillyPropCattail1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("201_n6gar")
+
+[node name="HillyPropCattail2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("202_tsman")
+
+[node name="HillyPropFenceBoards1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("203_pigrg")
+
+[node name="HillyPropFenceBoards2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("204_dnkx1")
+
+[node name="HillyPropFenceBoards3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("205_sl2as")
+
+[node name="HillyPropFenceBoards4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("206_b11br")
+
+[node name="HillyPropFenceCurve1x1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("207_1pgls")
+
+[node name="HillyPropFenceCurve2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("208_iwgns")
+
+[node name="HillyPropFenceCurve3x3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("209_do7te")
+
+[node name="HillyPropFenceGate1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("210_cubjx")
+
+[node name="HillyPropFenceGate2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("211_xbnkf")
+
+[node name="HillyPropFenceHillGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("212_a807f")
+
+[node name="HillyPropFenceHillSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("213_yof2a")
+
+[node name="HillyPropFencePost1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("214_17dso")
+
+[node name="HillyPropFencePost2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("215_adufo")
+
+[node name="HillyPropFencePost3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("216_iq68j")
+
+[node name="HillyPropFencePost4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("217_pmjp3")
+
+[node name="HillyPropFlowerDaisy" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("218_dk07p")
+
+[node name="HillyPropFlowerLilyBlue" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("219_lh6e5")
+
+[node name="HillyPropFlowerLilyPink" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("220_o6ore")
+
+[node name="HillyPropFlowerRose" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("221_flq65")
+
+[node name="HillyPropFlowerSunflower" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("222_o61g2")
+
+[node name="HillyPropFlowerTulip" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("223_084ry")
+
+[node name="HillyPropGrassClump1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("224_82k5o")
+
+[node name="HillyPropGrassClump2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("225_eytcg")
+
+[node name="HillyPropGrassClump3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("226_7bgwh")
+
+[node name="HillyPropGrassClump4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("227_3kc50")
+
+[node name="HillyPropHollowTrunk" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("228_gxnk2")
+
+[node name="HillyPropMushroom1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("229_0sakb")
+
+[node name="HillyPropMushroom2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("230_t6u8d")
+
+[node name="HillyPropRock1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("231_oajec")
+
+[node name="HillyPropRock2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("232_unc13")
+
+[node name="HillyPropRock3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("233_nktbi")
+
+[node name="HillyPropRock4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("234_bb7uy")
+
+[node name="HillyPropRuinsPillar1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("235_3ifjp")
+
+[node name="HillyPropRuinsPillar2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("236_kfrnj")
+
+[node name="HillyPropRuinsPillar3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("237_2s4y4")
+
+[node name="HillyPropRuinsPillar4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("238_d1b10")
+
+[node name="HillyPropRuinsPillar5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("239_6lwvm")
+
+[node name="HillyPropSteppingStones1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("240_ru813")
+
+[node name="HillyPropSteppingStones2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("241_noybt")
+
+[node name="HillyPropSteppingStones3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("242_r1ura")
+
+[node name="HillyPropSteppingStones4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("243_x8c0d")
+
+[node name="HillyPropSteppingStones5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("244_qy3bl")
+
+[node name="HillyPropSteppingStones6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("245_8e68d")
+
+[node name="HillyPropSteppingStones7" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("246_qy8wb")
+
+[node name="HillyPropSteppingStones8" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("247_1trhf")
+
+[node name="HillyPropStump" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("248_276es")
+
+[node name="HillyPropTreeCedar1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("249_r8cl1")
+
+[node name="HillyPropTreeCedar2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("250_u24eh")
+
+[node name="HillyPropTreeOak1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("251_ktujt")
+
+[node name="HillyPropTreeOak2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("252_kj33q")
+
+[node name="HillyPropTreeOak3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("253_1ak8q")
+
+[node name="HillyPropTreeOak4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("254_qkv0j")
+
+[node name="HillyPropTreePine1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("255_kpcqa")
+
+[node name="HillyPropTreePine2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("256_h585r")
+
+[node name="HillyPropTreePine3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("257_hk4mr")
+
+[node name="HillyTerrainGrassFloor" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("258_bku6e")
+
+[node name="HillyTerrainHillCornerInner2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("259_imydg")
+
+[node name="HillyTerrainHillCornerInner3x3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("260_0jrsh")
+
+[node name="HillyTerrainHillCornerInner4x4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("261_3ya6x")
+
+[node name="HillyTerrainHillCornerOuter2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("262_m0usx")
+
+[node name="HillyTerrainHillCornerOuter3x3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("263_ujbve")
+
+[node name="HillyTerrainHillCornerOuter4x4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("264_8vhn1")
+
+[node name="HillyTerrainHillSideGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("265_whcpu")
+
+[node name="HillyTerrainHillSideOverlapSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("266_jsama")
+
+[node name="HillyTerrainHillSideSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("267_k2atd")
+
+[node name="HillyTerrainHillSideShiftGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("268_t3oqv")
+
+[node name="HillyTerrainHillSideShiftSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("269_pgm7c")
+
+[node name="HillyTerrainHillTransitionGentleSharpCentered" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("270_bg5nh")
+
+[node name="HillyTerrainHillTransitionGentleSharpFlushBase" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("271_ue8a7")
+
+[node name="HillyTerrainHillTransitionGentleSharpFlushCrest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("272_i75al")
+
+[node name="HillyTerrainPathCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("273_yxjw3")
+
+[node name="HillyTerrainPathCornerInner1x1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("274_4atgf")
+
+[node name="HillyTerrainPathCornerInner2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("275_xbti8")
+
+[node name="HillyTerrainPathCornerInner3x3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("276_ycpg8")
+
+[node name="HillyTerrainPathCornerOuter1x1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("277_yw4dp")
+
+[node name="HillyTerrainPathCornerOuter2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("278_0xad2")
+
+[node name="HillyTerrainPathCornerOuter3x3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("279_ofbrg")
+
+[node name="HillyTerrainPathCornerOuter4x4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("280_5e6n6")
+
+[node name="HillyTerrainPathCornerY2x2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("281_7wpto")
+
+[node name="HillyTerrainPathCornerY3x3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("282_wde17")
+
+[node name="HillyTerrainPathEsse2x3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("283_83wdm")
+
+[node name="HillyTerrainPathHillGentlePlainCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("284_urquo")
+
+[node name="HillyTerrainPathHillGentlePlainSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("285_q6um2")
+
+[node name="HillyTerrainPathHillSharpPlainCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("286_aatuo")
+
+[node name="HillyTerrainPathHillSharpPlainSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("287_qfxie")
+
+[node name="HillyTerrainPathHillSharpStepsCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("288_gmids")
+
+[node name="HillyTerrainPathHillSharpStepsSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("289_7xawt")
+
+[node name="HillyTerrainPathSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("290_uceli")
+
+[node name="HillyTerrainWaterCurve" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("291_asjuu")
+
+[node name="HillyTerrainWaterFlat" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("292_eat1e")
+
+[node name="HillyTerrainWaterSlope" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("293_urr28")
+
+[node name="Mountain1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("294_wsnp0")
+
+[node name="Mountain2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("295_47xut")
+
+[node name="Mountain3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("296_g44r7")
+
+[node name="Mountain4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("297_thg26")
+
+[node name="SharedPropBoulder1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("298_dl27m")
+
+[node name="SharedPropBoulder2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("299_kgnvi")
+
+[node name="SharedPropBoulder3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("300_l0gu6")
+
+[node name="SharedPropBoulder4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("301_m1lgt")
+
+[node name="SharedPropBoulder5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("302_b6qui")
+
+[node name="SharedPropBoulder6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("303_wcoob")
+
+[node name="SharedTerrainDirtGatheredCorner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("304_7dpgk")
+
+[node name="SharedTerrainDirtGatheredStraight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14496, 0, 3.1399)
+mesh = ExtResource("305_gbb6q")

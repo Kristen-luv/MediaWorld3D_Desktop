@@ -1,0 +1,90 @@
+[gd_scene load_steps=4 format=3 uid="uid://ydb61ihdv0ee"]
+
+[ext_resource type="Script" path="res://src/TBWObject.gd" id="1_rrxc2"]
+[ext_resource type="Script" path="res://src/Billboard.gd" id="2_j2r5v"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_aaal4"]
+
+[node name="Scoreboard" type="StaticBody3D"]
+script = ExtResource("1_rrxc2")
+
+[node name="Billboard" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 33.6606, 0)
+size = Vector3(100, 50, 1)
+script = ExtResource("2_j2r5v")
+
+[node name="Pillar1" type="CSGBox3D" parent="Billboard"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.208, -29.342, 0)
+size = Vector3(2, 10, 1)
+
+[node name="Pillar2" type="CSGBox3D" parent="Billboard"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.0685, -29.342, 0)
+size = Vector3(2, 10, 1)
+
+[node name="Title" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 22, 0.6)
+text = "Scoreboard"
+
+[node name="Player1" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -30.0112, 16.7928, 0.6)
+text = "Processing..."
+
+[node name="Player2" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -30.0112, 9.30885, 0.6)
+text = "Processing..."
+
+[node name="Player3" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -30.0112, 0.803104, 0.6)
+text = "Processing..."
+
+[node name="Player4" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -30.0112, -6.89472, 0.6)
+text = "Processing..."
+
+[node name="Player5" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, -30.0112, -14.5994, 0.6)
+text = "Processing..."
+
+[node name="Score1" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 34.9379, 16.7928, 0.6)
+text = "Processing..."
+
+[node name="Score2" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 34.9379, 9.30885, 0.6)
+text = "Processing..."
+
+[node name="Score3" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 34.9379, 0.803104, 0.6)
+text = "Processing..."
+
+[node name="Score4" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 34.9379, -6.89472, 0.6)
+text = "Processing..."
+
+[node name="Score5" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 34.9379, -14.5994, 0.6)
+text = "Processing..."
+
+[node name="Game1" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 1.67843, 16.7928, 0.6)
+text = "Processing..."
+
+[node name="Game2" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 1.67843, 9.30885, 0.6)
+text = "Processing..."
+
+[node name="Game3" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 1.67843, 0.803104, 0.6)
+text = "Processing..."
+
+[node name="Game4" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 1.67843, -6.89472, 0.6)
+text = "Processing..."
+
+[node name="Game5" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 1.67843, -14.5994, 0.6)
+text = "Processing..."
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000495911, 33.5286, 0)
+shape = SubResource("BoxShape3D_aaal4")

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bcwh7ut700yg"]
 
-[ext_resource type="PackedScene" uid="uid://bufgmo1rdbqxn" path="res://data/scene/Play2World/maps/map3/Tiles_map3.tscn" id="1_a72n3"]
-[ext_resource type="PackedScene" uid="uid://d3v6j0plrx4j2" path="res://data/scene/Play2World/maps/map3/Tiles_lobby_map3.tscn" id="2_ewpco"]
+[ext_resource type="PackedScene" uid="uid://bufgmo1rdbqxn" path="res://data/scene/RobotWorld/maps/map3/Tiles_map3.tscn" id="1_a72n3"]
+[ext_resource type="PackedScene" uid="uid://d3v6j0plrx4j2" path="res://data/scene/RobotWorld/maps/map3/Tiles_lobby_map3.tscn" id="2_ewpco"]
 
 [node name="Map3" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
@@ -11,7 +11,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
 [node name="Tiles_map3" parent="Ground" instance=ExtResource("1_a72n3")]
 
 [node name="Tiles_lobby" parent="Ground" instance=ExtResource("2_ewpco")]
-transform = Transform3D(-0.871685, 0, -0.490067, 0, 1, 0, 0.490067, 0, -0.871685, 443.335, 50.7416, 513.084)
+transform = Transform3D(0.884044, 0, 0.467405, 0, 1, 0, -0.467405, 0, 0.884044, 121.424, 149.634, 230.04)
 
 [node name="Trees" type="Node3D" parent="."]
 

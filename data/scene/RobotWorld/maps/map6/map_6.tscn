@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0kbidr4cxh2d"]
+
+[ext_resource type="PackedScene" uid="uid://d2fsx2v5q7ryu" path="res://data/scene/Play2World/maps/map6/Tiles_map6.tscn" id="1_ij6nm"]
+[ext_resource type="PackedScene" uid="uid://dotydvraqq6kt" path="res://data/scene/Play2World/maps/map6/Tiles_lobby_map6.tscn" id="2_wp6ru"]
+
+[node name="Map6" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+
+[node name="Ground" type="Node3D" parent="."]
+
+[node name="Tiles_map2" parent="Ground" instance=ExtResource("1_ij6nm")]
+
+[node name="Tiles_map3" parent="Ground" instance=ExtResource("2_wp6ru")]
+transform = Transform3D(0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, 0.258819, 253.985, 199, 152.923)
+
+[node name="Trees" type="Node3D" parent="."]
+
+[node name="Objects" type="Node3D" parent="."]

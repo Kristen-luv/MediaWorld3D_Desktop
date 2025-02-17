@@ -55,7 +55,7 @@ var server_version : int = 12020
 var display_version := "beta 12.2pre"
 
 # Preload the custom world scene
-const CUSTOM_WORLD : PackedScene = preload("res://data/scene/Play2World/Play2World.tscn")
+const CUSTOM_WORLD : PackedScene = preload("res://data/scene/WorldOfWorlds/WorldOfWorlds.tscn")
 
 @onready var host_button : Button = $MultiplayerMenu/PlayMenu/HostHbox/Host
 @onready var host_public_button : Button = $MultiplayerMenu/HostSettingsMenu/HostPublic
@@ -363,7 +363,7 @@ func _on_world_button_pressed() -> void:
 	
 	# Editor is single player.
 	var world : World = $World
-	world.load_map.call_deferred(load(str("res://data/scene/Play2World/Play2World.tscn")))
+	world.load_map.call_deferred(load(str("res://data/scene/WorldOfWorlds/WorldOfWorlds.tscn")))
 	await Signal(world, "map_loaded")
 	# add camera
 	var camera_inst : Node3D = CAMERA.instantiate()

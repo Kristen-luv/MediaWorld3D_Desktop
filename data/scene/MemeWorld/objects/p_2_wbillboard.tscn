@@ -1,0 +1,105 @@
+[gd_scene load_steps=17 format=3 uid="uid://c5ndqrparso5a"]
+
+[ext_resource type="Texture2D" uid="uid://brmw2xoudym2w" path="res://data/assets/logo/p2w_logo.png" id="1_17nvi"]
+[ext_resource type="PackedScene" uid="uid://ca8xdpkas20bh" path="res://data/assets/dragon.glb" id="2_duq1o"]
+[ext_resource type="PackedScene" uid="uid://deytf1rfbw1h3" path="res://data/assets/tower_kit/detail-rocks-large.glb" id="3_e4yiw"]
+[ext_resource type="PackedScene" uid="uid://2ril5ob0jhjk" path="res://data/assets/tower_kit/detail-rocks.glb" id="4_wvh8y"]
+[ext_resource type="PackedScene" uid="uid://dbvkqkpg40ds7" path="res://data/assets/environment_kit/Bush_1.fbx" id="5_sok2k"]
+[ext_resource type="PackedScene" uid="uid://eruop0oe4sxy" path="res://data/assets/environment_kit/Bush_3.fbx" id="6_0xb8y"]
+[ext_resource type="PackedScene" uid="uid://c862lm7onk7oy" path="res://data/assets/environment_kit/Bush_2.fbx" id="7_tvh3e"]
+[ext_resource type="PackedScene" uid="uid://ykvdd3qr4fln" path="res://data/assets/environment_kit/Rock_3.fbx" id="8_6omp2"]
+[ext_resource type="PackedScene" uid="uid://vvrf0q34uvy3" path="res://data/assets/environment_kit/Rock_1.fbx" id="9_322rw"]
+
+[sub_resource type="MeshTexture" id="MeshTexture_jk36p"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_olhia"]
+albedo_texture = SubResource("MeshTexture_jk36p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pq56b"]
+transparency = 1
+albedo_texture = ExtResource("1_17nvi")
+uv1_scale = Vector3(-1, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y635p"]
+transparency = 1
+albedo_texture = ExtResource("1_17nvi")
+uv1_scale = Vector3(1, -1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t6oxb"]
+transparency = 1
+albedo_texture = ExtResource("1_17nvi")
+uv1_scale = Vector3(-1, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h38g2"]
+transparency = 1
+albedo_texture = ExtResource("1_17nvi")
+uv1_scale = Vector3(1, -1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qwkum"]
+
+[node name="P2Wbillboard" type="Node3D"]
+
+[node name="Pillar" type="CSGCylinder3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+height = 10.0
+
+[node name="Torus" type="CSGTorus3D" parent="."]
+
+[node name="Torus2" type="CSGTorus3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)
+
+[node name="BoxBoard" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.5, 0)
+size = Vector3(5, 5, 5)
+material = SubResource("StandardMaterial3D_olhia")
+
+[node name="Front" type="CSGBox3D" parent="BoxBoard"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.5)
+size = Vector3(5, 5, 1)
+material = SubResource("StandardMaterial3D_pq56b")
+
+[node name="Back" type="CSGBox3D" parent="BoxBoard"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5)
+size = Vector3(5, 5, 1)
+material = SubResource("StandardMaterial3D_y635p")
+
+[node name="Left" type="CSGBox3D" parent="BoxBoard"]
+transform = Transform3D(-4.37114e-08, 1.74846e-07, 1, 0, 1, -1.74846e-07, -1, -7.64274e-15, -4.37114e-08, 2.5, 0, 0)
+size = Vector3(5, 5, 1)
+material = SubResource("StandardMaterial3D_t6oxb")
+
+[node name="Right" type="CSGBox3D" parent="BoxBoard"]
+transform = Transform3D(-4.37114e-08, 1.74846e-07, 1, 0, 1, -1.74846e-07, -1, -7.64274e-15, -4.37114e-08, -2.5, 0, 0)
+size = Vector3(5, 5, 1)
+material = SubResource("StandardMaterial3D_h38g2")
+
+[node name="Sphere" type="CSGSphere3D" parent="BoxBoard"]
+radius = 2.0
+material = SubResource("StandardMaterial3D_qwkum")
+
+[node name="dragon" parent="BoxBoard" instance=ExtResource("2_duq1o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+
+[node name="detail-rocks-large2" parent="." instance=ExtResource("3_e4yiw")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 1.26295, 0, 0)
+
+[node name="detail-rocks2" parent="." instance=ExtResource("4_wvh8y")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, -0.446887, 0, 0)
+
+[node name="Bush_1" parent="." instance=ExtResource("5_sok2k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.39319, 0.56794, 0)
+
+[node name="Bush_3" parent="." instance=ExtResource("6_0xb8y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.423765, -1.07342)
+
+[node name="Bush_2" parent="." instance=ExtResource("7_tvh3e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.422419, 1.17174)
+
+[node name="Rock_3" parent="." instance=ExtResource("8_6omp2")]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -0.849302, 0, -0.965819)
+
+[node name="Rock_4" parent="." instance=ExtResource("8_6omp2")]
+transform = Transform3D(-0.336472, 0, 0.216302, 0, 0.4, 0, -0.216302, 0, -0.336472, -1.19381, 0, 1.16705)
+
+[node name="Rock_1" parent="." instance=ExtResource("9_322rw")]
+transform = Transform3D(-0.199881, 0, -0.97982, 0, 1, 0, 0.97982, 0, -0.199881, -2.04258, 0, -0.53612)

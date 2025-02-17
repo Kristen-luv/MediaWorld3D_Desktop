@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://csv28ssrsjabm"]
+
+[ext_resource type="Script" path="res://src/TBWObject.gd" id="1_tajsi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xe7iu"]
+size = Vector3(50, 30, 1)
+
+[node name="Gameboard9" type="StaticBody3D"]
+script = ExtResource("1_tajsi")
+
+[node name="Billboard" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 17, 0)
+size = Vector3(20, 15, 1)
+
+[node name="Pillar1" type="CSGBox3D" parent="Billboard"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -12.065, 0)
+size = Vector3(2, 10, 1)
+
+[node name="Title" type="Label3D" parent="Billboard"]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 4.76583, 0.6)
+text = "3 2 1 Go! Game"
+font_size = 24
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 14.5, 0)
+shape = SubResource("BoxShape3D_xe7iu")

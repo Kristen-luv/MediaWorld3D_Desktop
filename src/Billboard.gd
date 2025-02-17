@@ -10,7 +10,7 @@ extends CSGBox3D
 	$Game1, $Game2, $Game3, $Game4, $Game5
 ]
 
-var polling_interval: float = 5.0  # Time in seconds between API calls
+var polling_interval: float = 120  # Time in seconds between API calls
 var polling_timer: Timer
 
 func _ready() -> void:
@@ -39,8 +39,8 @@ func fetch_player_data() -> void:
 	# Make the request
 	var result: int = http_request.request(url)
 
-	if result != OK:
-		print("Failed to make HTTP request. Error code:", result)
+	#if result != OK:
+		#print("Failed to make HTTP request. Error code:", result)
 
 func _on_request_completed(
 	result: int, response_code: int, headers: Array, body: PackedByteArray
@@ -51,15 +51,15 @@ func _on_request_completed(
 		var json_parser: JSON = JSON.new()
 		var parse_result: int = json_parser.parse(json)
 
-		if parse_result != OK:
-			print("Failed to parse JSON:", json_parser.get_error_message())
-			return
+		#if parse_result != OK:
+			#print("Failed to parse JSON:", json_parser.get_error_message())
+			#return
 
 		# Access the JSON array
 		var player_list: Array = json_parser.data
 		update_scoreboard(player_list)
-	else:
-		print("HTTP Request failed with code:", response_code)
+	#else:
+		#print("HTTP Request failed with code:", response_code)
 
 func update_scoreboard(player_list: Array) -> void:
 	# Loop through labels and update them

@@ -1,23 +1,38 @@
-[gd_scene load_steps=19 format=3 uid="uid://dbv7xvbqvmyx0"]
+[gd_scene load_steps=31 format=3 uid="uid://dbv7xvbqvmyx0"]
 
-[ext_resource type="PackedScene" uid="uid://cekjrjqcl4bu5" path="res://data/scene/Play2World/maps/center_map/Tiles_map0.tscn" id="1_1ddmg"]
-[ext_resource type="PackedScene" uid="uid://c5ndqrparso5a" path="res://data/scene/Play2World/objects/p_2_wbillboard.tscn" id="4_qbaij"]
+[ext_resource type="PackedScene" uid="uid://cekjrjqcl4bu5" path="res://data/scene/RobotWorld/maps/center_map/Tiles_map0.tscn" id="1_1ddmg"]
+[ext_resource type="PackedScene" uid="uid://c5ndqrparso5a" path="res://data/scene/RobotWorld/objects/p_2_wbillboard.tscn" id="4_qbaij"]
 [ext_resource type="MeshLibrary" uid="uid://di6l4v2cdpa3m" path="res://data/assets/meshes/nature_mesh_library.tres" id="5_6vlbj"]
 [ext_resource type="MeshLibrary" uid="uid://cjhr2b027h35f" path="res://data/assets/meshes/grass_mesh_library.tres" id="5_u17ed"]
-[ext_resource type="PackedScene" uid="uid://8ahsgap1pg4n" path="res://data/scene/Play2World/LargeBlock.tscn" id="6_r57px"]
-[ext_resource type="PackedScene" uid="uid://c1bm8ii0vjjat" path="res://data/scene/Play2World/MidBlock.tscn" id="7_dygfh"]
-[ext_resource type="PackedScene" uid="uid://4oxbsvjjnrjd" path="res://data/scene/Play2World/SlopeBlock.tscn" id="8_s55ce"]
-[ext_resource type="PackedScene" uid="uid://dqhcn4phqlqjf" path="res://data/scene/Play2World/HexagonBlock.tscn" id="9_cyaq4"]
+[ext_resource type="PackedScene" uid="uid://8ahsgap1pg4n" path="res://data/scene/RobotWorld/LargeBlock.tscn" id="6_r57px"]
+[ext_resource type="PackedScene" uid="uid://c1bm8ii0vjjat" path="res://data/scene/RobotWorld/MidBlock.tscn" id="7_dygfh"]
+[ext_resource type="PackedScene" uid="uid://4oxbsvjjnrjd" path="res://data/scene/RobotWorld/SlopeBlock.tscn" id="8_s55ce"]
+[ext_resource type="PackedScene" uid="uid://dqhcn4phqlqjf" path="res://data/scene/RobotWorld/HexagonBlock.tscn" id="9_cyaq4"]
 [ext_resource type="MeshLibrary" uid="uid://5wqib7lorv8r" path="res://data/assets/meshes/terrain_mesh_library.tres" id="10_ciuds"]
-[ext_resource type="PackedScene" uid="uid://dlhpoul7bw8pe" path="res://data/scene/Play2World/FlatSandRock.tscn" id="11_4v55h"]
-[ext_resource type="PackedScene" uid="uid://bli85viymfi46" path="res://data/scene/Play2World/PondWater.tscn" id="12_mf4gs"]
-[ext_resource type="PackedScene" uid="uid://cv357lpsarl4t" path="res://data/scene/Play2World/BridgePass.tscn" id="13_wrusw"]
-[ext_resource type="PackedScene" uid="uid://dmvynggpoqy7p" path="res://data/scene/Play2World/NarrowBlock.tscn" id="14_kqccr"]
-[ext_resource type="PackedScene" uid="uid://dsnmabjl1xc17" path="res://data/scene/Play2World/maps/center_map/SmallBridgePass.tscn" id="15_18mbb"]
-[ext_resource type="PackedScene" uid="uid://diwv47nciiuh7" path="res://data/scene/Play2World/maps/center_map/Tiles_curver_slope.tscn" id="15_hmyh3"]
-[ext_resource type="PackedScene" uid="uid://d77wtx4ofpyc" path="res://data/scene/Play2World/maps/center_map/circular_village.tscn" id="15_xw5hy"]
-[ext_resource type="PackedScene" uid="uid://4qycsquka2r2" path="res://data/scene/Play2World/maps/center_map/scoreboard_area.tscn" id="16_s8g6m"]
-[ext_resource type="PackedScene" uid="uid://uan7xu6y7rg7" path="res://data/scene/Play2World/maps/center_map/Tiles_bridge.tscn" id="18_xarn8"]
+[ext_resource type="PackedScene" uid="uid://dlhpoul7bw8pe" path="res://data/scene/RobotWorld/FlatSandRock.tscn" id="11_4v55h"]
+[ext_resource type="PackedScene" uid="uid://bli85viymfi46" path="res://data/scene/RobotWorld/PondWater.tscn" id="12_mf4gs"]
+[ext_resource type="PackedScene" uid="uid://cv357lpsarl4t" path="res://data/scene/RobotWorld/BridgePass.tscn" id="13_wrusw"]
+[ext_resource type="PackedScene" uid="uid://dmvynggpoqy7p" path="res://data/scene/RobotWorld/NarrowBlock.tscn" id="14_kqccr"]
+[ext_resource type="PackedScene" uid="uid://dsnmabjl1xc17" path="res://data/scene/RobotWorld/maps/center_map/SmallBridgePass.tscn" id="15_18mbb"]
+[ext_resource type="PackedScene" uid="uid://diwv47nciiuh7" path="res://data/scene/RobotWorld/maps/center_map/Tiles_curver_slope.tscn" id="15_hmyh3"]
+[ext_resource type="PackedScene" uid="uid://d77wtx4ofpyc" path="res://data/scene/RobotWorld/maps/center_map/circular_village.tscn" id="15_xw5hy"]
+[ext_resource type="PackedScene" uid="uid://4qycsquka2r2" path="res://data/scene/RobotWorld/maps/center_map/scoreboard_area.tscn" id="16_s8g6m"]
+[ext_resource type="PackedScene" uid="uid://b52jus0cwn14j" path="res://data/scene/RobotWorld/signboard/BoardPlay2Work.tscn" id="17_jxlgh"]
+[ext_resource type="PackedScene" uid="uid://b2oywjvergj3j" path="res://data/scene/RobotWorld/signboard/BoardPlay2Help.tscn" id="18_c82h0"]
+[ext_resource type="PackedScene" uid="uid://uan7xu6y7rg7" path="res://data/scene/RobotWorld/maps/center_map/Tiles_bridge.tscn" id="18_xarn8"]
+[ext_resource type="PackedScene" uid="uid://b0xgtgav46tgp" path="res://data/scene/RobotWorld/signboard/BoardPlay2Health.tscn" id="19_5mpiv"]
+[ext_resource type="PackedScene" uid="uid://e0155jt1b1k6" path="res://data/scene/RobotWorld/signboard/BoardPlay2Learn.tscn" id="20_u714e"]
+[ext_resource type="PackedScene" uid="uid://ctkx8l1qsdqar" path="res://data/scene/RobotWorld/signboard/BoardPlay2Love.tscn" id="21_udw4e"]
+[ext_resource type="PackedScene" uid="uid://c1as0xt2ghey7" path="res://data/scene/RobotWorld/signboard/BoardPlay2LiveWell.tscn" id="22_rigsy"]
+[ext_resource type="PackedScene" uid="uid://cn4tl6calja1t" path="res://data/scene/RobotWorld/maps/map_connector/floating_map.tscn" id="23_4o0uo"]
+[ext_resource type="PackedScene" uid="uid://dk2hbbt734jk0" path="res://data/scene/RobotWorld/signboard/BoardPlay2Experiences.tscn" id="23_6wvei"]
+[ext_resource type="PackedScene" uid="uid://bjemhdkhotj32" path="res://data/scene/RobotWorld/signboard/BoardPlay2Travel.tscn" id="24_bmk8e"]
+[ext_resource type="PackedScene" uid="uid://d15xh22sdg3ck" path="res://data/scene/RobotWorld/signboard/BoardPlay2Music.tscn" id="25_h0bif"]
+
+[sub_resource type="World3D" id="World3D_tfni3"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_53387"]
+viewport_path = NodePath("Ground/Node3D/SubViewport")
 
 [node name="Map0" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
@@ -175,13 +190,131 @@ transform = Transform3D(0.999038, 0, -0.0438636, 0, 1, 0, 0.0438636, 0, 0.999038
 [node name="Bridge3" parent="Ground/big_bridge3" instance=ExtResource("15_18mbb")]
 transform = Transform3D(0.708246, 0.163339, -0.686809, -0.0238983, 0.977856, 0.207912, 0.70556, -0.130839, 0.696467, -138.363, 12.5205, -313.715)
 
+[node name="Node3D" type="Node3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 20, -10)
+
+[node name="SubViewport" type="SubViewport" parent="Ground/Node3D"]
+world_3d = SubResource("World3D_tfni3")
+
+[node name="Label" type="Label" parent="Ground/Node3D/SubViewport"]
+offset_left = 22.0
+offset_top = 14.0
+offset_right = 254.0
+offset_bottom = 36.0
+text = "Hello World! How are you?"
+
+[node name="WebView" type="WebView" parent="Ground/Node3D/SubViewport"]
+full_window_size = false
+url = "https://play2helpgamesserver.onrender.com/tetrixGame/?to="
+devtools = false
+clipboard = false
+focused = false
+offset_left = 43.0
+offset_top = 49.0
+offset_right = 810.0
+offset_bottom = 555.0
+mouse_force_pass_scroll_events = false
+
+[node name="Sprite3D" type="Sprite3D" parent="Ground/Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+texture = SubResource("ViewportTexture_53387")
+
 [node name="Trees" type="Node3D" parent="."]
 
 [node name="Objects" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
 [node name="CircularVillage" parent="." instance=ExtResource("15_xw5hy")]
-transform = Transform3D(0.422618, 0, -0.906307, 0, 1, 0, 0.906307, 0, 0.422618, 34.526, -95.4, -522.61)
+transform = Transform3D(0.642787, 0, -0.766044, 0, 1, 0, 0.766044, 0, 0.642787, 38.2878, -296.4, -613.662)
+
+[node name="Signboards2" type="Node3D" parent="CircularVillage"]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 1.41421, 294, 7.07107)
+
+[node name="BoardPlay2Help" parent="CircularVillage/Signboards2" instance=ExtResource("18_c82h0")]
+transform = Transform3D(-0.707106, 0, -0.707106, 0, 1, 0, 0.707106, 0, -0.707106, 170.984, 0, 195.399)
+
+[node name="BoardPLay2Work" parent="CircularVillage/Signboards2" instance=ExtResource("17_jxlgh")]
+transform = Transform3D(-0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, -0.965926, 19.5336, 0, 276.146)
+
+[node name="BoardPlay2Health" parent="CircularVillage/Signboards2" instance=ExtResource("19_5mpiv")]
+transform = Transform3D(-0.866026, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866026, -139.641, 0, 236.489)
+
+[node name="BoardPlay2Learn" parent="CircularVillage/Signboards2" instance=ExtResource("20_u714e")]
+transform = Transform3D(-0.499999, 0, 0.866025, 0, 1, 0, -0.866025, 0, -0.499999, -244.078, 0, 127.156)
+
+[node name="BoardPlay2Love" parent="CircularVillage/Signboards2" instance=ExtResource("21_udw4e")]
+transform = Transform3D(0.25882, 0, 0.965925, 0, 1, 0, -0.965925, 0, 0.25882, -294.077, 0, -7.4594)
+
+[node name="BoardPLay2LiveWell" parent="CircularVillage/Signboards2" instance=ExtResource("22_rigsy")]
+transform = Transform3D(0.499999, 0, 0.866024, 0, 1, 0, -0.866024, 0, 0.499999, -237.509, 0, -148.203)
+
+[node name="BoardPLay2Experiences" parent="CircularVillage/Signboards2" instance=ExtResource("23_6wvei")]
+transform = Transform3D(0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, -92.7615, 0, -259.188)
+
+[node name="BoardPLay2Travel" parent="CircularVillage/Signboards2" instance=ExtResource("24_bmk8e")]
+transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, 71.1752, 0, -265.63)
+
+[node name="BoardPLay2Music" parent="CircularVillage/Signboards2" instance=ExtResource("25_h0bif")]
+transform = Transform3D(0.5, 0, -0.866025, 0, 1, 0, 0.866025, 0, 0.5, 248.603, 0, -103.404)
+
+[node name="Floating_connector" type="Node3D" parent="CircularVillage"]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 402.609, 257.01, 446.475)
+
+[node name="floating_map" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -368.341, -86.3094, -370.432)
+
+[node name="floating_map2" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(1, 0, -1.49012e-08, 0, 1, 0, 1.49012e-08, 0, 1, -440.83, -86.5965, -649.807)
+
+[node name="floating_map3" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -320.086, -86.5965, -896.568)
+
+[node name="floating_map4" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -123.161, -86.5965, -1033.76)
+
+[node name="floating_map5" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 126.727, -86.5965, -1056.3)
+
+[node name="floating_map6" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 350.634, -86.5965, -934.023)
+
+[node name="floating_map7" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 486.831, -86.5965, -698.826)
+
+[node name="floating_map8" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 449.957, -86.5965, -416.627)
+
+[node name="floating_map9" parent="CircularVillage/Floating_connector" instance=ExtResource("23_4o0uo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 304.001, -86.5965, -230.878)
+
+[node name="connector_bridge" type="Node3D" parent="CircularVillage/Floating_connector"]
+
+[node name="Bridge" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(0.5, 0, -0.866025, 0, 1, 0, 0.866025, 0, 0.5, -275.785, 34, -413.718)
+
+[node name="Bridge2" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(-0.139173, 0, -0.990268, 0, 1, 0, 0.990268, 0, -0.139173, -340.281, 34, -629.995)
+
+[node name="Bridge3" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(-0.615661, 0, -0.788011, 0, 1, 0, 0.788011, 0, -0.615661, -247.39, 34, -826.281)
+
+[node name="Bridge4" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(-0.927184, 0, -0.374607, 0, 1, 0, 0.374607, 0, -0.927184, -87.3624, 34, -939.829)
+
+[node name="Bridge5" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(-0.920505, 0, 0.390731, 0, 1, 0, -0.390731, 0, -0.920505, 103.992, 34, -957.181)
+
+[node name="Bridge6" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(-0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 275.856, 34, -857.885)
+
+[node name="Bridge7" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(-0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, -0.258819, 389.991, 34, -668.039)
+
+[node name="Bridge8" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, 0.258819, 356.06, 34, -454.74)
+
+[node name="Bridge9" parent="CircularVillage/Floating_connector/connector_bridge" instance=ExtResource("15_18mbb")]
+transform = Transform3D(0.819152, 0, 0.573576, 0, 1, 0, -0.573576, 0, 0.819152, 250.403, 34, -318.34)
 
 [node name="village_tiles" parent="." instance=ExtResource("18_xarn8")]
 transform = Transform3D(2.98023e-08, 0, 1, 0, 1, 0, -1, 0, 2.98023e-08, 17, -24, -223)

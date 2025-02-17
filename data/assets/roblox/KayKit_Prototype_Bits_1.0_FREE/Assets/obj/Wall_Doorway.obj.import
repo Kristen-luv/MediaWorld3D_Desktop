@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://q2wa6ba86l0o"
+path="res://.godot/imported/Wall_Doorway.obj-9cb79236028a88d829aadba19d90ddbf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wall_Doorway.obj-9cb79236028a88d829aadba19d90ddbf.mesh"]
+
+source_file="res://data/assets/roblox/KayKit_Prototype_Bits_1.0_FREE/Assets/obj/Wall_Doorway.obj"
+dest_files=["res://.godot/imported/Wall_Doorway.obj-9cb79236028a88d829aadba19d90ddbf.mesh", "res://.godot/imported/Wall_Doorway.obj-9cb79236028a88d829aadba19d90ddbf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

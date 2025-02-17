@@ -1,0 +1,31 @@
+[gd_scene load_steps=10 format=3 uid="uid://fh7pr8rud1c2"]
+
+[ext_resource type="PackedScene" uid="uid://d25tspws7udiu" path="res://data/assets/environment_kit/Grass_1.fbx" id="1_ajsnn"]
+[ext_resource type="PackedScene" uid="uid://dhwm86eogvkae" path="res://data/assets/environment_kit/Grass_2.fbx" id="2_xgt1p"]
+[ext_resource type="PackedScene" uid="uid://cqviu07otiulx" path="res://data/assets/nature_kit/glTF/Grass_Common_Short.gltf" id="3_n0cvr"]
+[ext_resource type="PackedScene" uid="uid://bcfsv28lnvqjf" path="res://data/assets/nature_kit/glTF/Grass_Common_Tall.gltf" id="4_n476o"]
+[ext_resource type="PackedScene" uid="uid://crjb27rjylwdh" path="res://data/assets/nature_kit/glTF/Grass_Wispy_Short.gltf" id="5_yktdw"]
+[ext_resource type="PackedScene" uid="uid://c1dknr8pmgwms" path="res://data/assets/nature_kit/glTF/Grass_Wispy_Tall.gltf" id="6_5smrv"]
+[ext_resource type="PackedScene" uid="uid://dy26b1ba2j2v1" path="res://data/assets/city_kit/grass-trees-tall.glb" id="7_5t3he"]
+[ext_resource type="PackedScene" uid="uid://b1711sieed2u6" path="res://data/assets/city_kit/grass-trees.glb" id="8_ybe6k"]
+[ext_resource type="PackedScene" uid="uid://cr3btp34bp3eg" path="res://data/assets/city_kit/grass.glb" id="9_1sbto"]
+
+[node name="GrassField" type="Node3D"]
+
+[node name="Grass_1" parent="." instance=ExtResource("1_ajsnn")]
+
+[node name="Grass_2" parent="." instance=ExtResource("2_xgt1p")]
+
+[node name="Grass_Common_Short" parent="." instance=ExtResource("3_n0cvr")]
+
+[node name="Grass_Common_Tall" parent="." instance=ExtResource("4_n476o")]
+
+[node name="Grass_Wispy_Short" parent="." instance=ExtResource("5_yktdw")]
+
+[node name="Grass_Wispy_Tall" parent="." instance=ExtResource("6_5smrv")]
+
+[node name="grass-trees-tall" parent="." instance=ExtResource("7_5t3he")]
+
+[node name="grass-trees" parent="." instance=ExtResource("8_ybe6k")]
+
+[node name="grass" parent="." instance=ExtResource("9_1sbto")]

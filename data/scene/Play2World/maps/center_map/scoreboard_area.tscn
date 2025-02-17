@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://4qycsquka2r2"]
 
-[ext_resource type="PackedScene" uid="uid://bea7x8k7laikn" path="res://data/scene/Play2World/maps/center_map/Tiles_scoreboard.tscn" id="1_iq131"]
+[ext_resource type="PackedScene" uid="uid://bea7x8k7laikn" path="res://data/scene/RobotWorld/maps/center_map/Tiles_scoreboard.tscn" id="1_iq131"]
 [ext_resource type="PackedScene" uid="uid://ydb61ihdv0ee" path="res://data/scene/Play2World/Scoreboard.tscn" id="1_vkyj1"]
 
 [node name="ScoreboardArea" type="Node3D"]

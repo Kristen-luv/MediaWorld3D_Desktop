@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://d77wtx4ofpyc"]
+
+[ext_resource type="PackedScene" uid="uid://bwd8qxi0xi1el" path="res://data/scene/RobotWorld/maps/center_map/Tiles_village.tscn" id="1_us428"]
+[ext_resource type="PackedScene" uid="uid://bfh7n411l3uwn" path="res://data/scene/Play2World/maps/center_map/CumulativeStatusBoard.tscn" id="2_my8kq"]
+
+[node name="CircularVillage" type="Node3D"]
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 0, -0.4, 0)
+
+[node name="village_tiles" parent="." instance=ExtResource("1_us428")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -104, 0)
+
+[node name="CumulativeStatusBoard" parent="." instance=ExtResource("2_my8kq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 296, 0)

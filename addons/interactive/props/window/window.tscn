@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cjodl8fvwtrig"]
+
+[node name="Window" type="Node3D"]
+
+[node name="WebView" type="WebView" parent="."]
+full_window_size = false
+url = "https://www.roblox.com/users/4897189523/profile"
+devtools = false
+clipboard = false
+focused = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 23.0
+offset_top = 16.0
+offset_right = -18.0
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_force_pass_scroll_events = false

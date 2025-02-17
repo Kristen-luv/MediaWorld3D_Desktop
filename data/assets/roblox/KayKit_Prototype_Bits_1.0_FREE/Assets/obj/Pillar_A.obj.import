@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bntm5bio3w6w2"
+path="res://.godot/imported/Pillar_A.obj-0dc73167b8cf29bd0e50272ca09519fa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Pillar_A.obj-0dc73167b8cf29bd0e50272ca09519fa.mesh"]
+
+source_file="res://data/assets/roblox/KayKit_Prototype_Bits_1.0_FREE/Assets/obj/Pillar_A.obj"
+dest_files=["res://.godot/imported/Pillar_A.obj-0dc73167b8cf29bd0e50272ca09519fa.mesh", "res://.godot/imported/Pillar_A.obj-0dc73167b8cf29bd0e50272ca09519fa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
